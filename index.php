@@ -60,12 +60,10 @@
         echo'
         </tbody>
         </table>
-        
         ';
         ?>
         <input type="submit" class="btn btn-success button" value="Verder ->">
-            </tbody>
-        
+            </tbody>  
     </form>
 </div>
 </body>
