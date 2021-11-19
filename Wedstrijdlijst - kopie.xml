@@ -1,0 +1,2415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Wedstrijd>
+    <Datum>11-9-2021</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Dalfsen F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-9-2021</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Schalkhaar F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-9-2021</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-9-2021</Datum>
+    <Tijd>11:15</Tijd>
+    <Thuisteam>HHZD F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-9-2021</Datum>
+    <Tijd>12:05</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Kwiek (R) F3</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-9-2021</Datum>
+    <Tijd>12:30</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Schalkhaar F3</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>25-9-2021</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Kwiek (R) F2</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>25-9-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>CVO F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>25-9-2021</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Schalkhaar F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>25-9-2021</Datum>
+    <Tijd>10:30</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Broekland F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>25-9-2021</Datum>
+    <Tijd>10:50</Tijd>
+    <Thuisteam>Schalkhaar F3</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>25-9-2021</Datum>
+    <Tijd>11:30</Tijd>
+    <Thuisteam>Nieuw Heeten F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>2-10-2021</Datum>
+    <Tijd>09:55</Tijd>
+    <Thuisteam>Schalkhaar E2</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>2-10-2021</Datum>
+    <Tijd>14:15</Tijd>
+    <Thuisteam>Achilles AHV D1</Thuisteam>
+    <Uitteam>Haarle D1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>2-10-2021</Datum>
+    <Tijd>16:45</Tijd>
+    <Thuisteam>AHV Achilles DC2#</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>2-10-2021</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>ABS DB1</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>3-10-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>DSC DA1</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>3-10-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>Schalkhaar DB2</Thuisteam>
+    <Uitteam>Haarle DB2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>3-10-2021</Datum>
+    <Tijd>12:30</Tijd>
+    <Thuisteam>ABS DS1</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1>Rooij, S. de</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-10-2021</Datum>
+    <Tijd>21:00</Tijd>
+    <Thuisteam>ABS DMW1</Thuisteam>
+    <Uitteam>Haarle DMW1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Dalfsen F1</Thuisteam>
+    <Uitteam>Kwiek (R) F2</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>ABS F1#</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Schalkhaar F1</Thuisteam>
+    <Uitteam>ABS F1#</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Kwiek (R) F1</Thuisteam>
+    <Uitteam>CVO F1</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Kwiek (R) F2</Thuisteam>
+    <Uitteam>Kwiek (R) F1</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Dalfsen F1</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>CVO F1</Thuisteam>
+    <Uitteam>ABS F1#</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>Dalfsen F1</Thuisteam>
+    <Uitteam>Schalkhaar F1</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Kwiek (R) F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Kwiek (R) F2</Thuisteam>
+    <Uitteam>CVO F1</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Schalkhaar F1</Thuisteam>
+    <Uitteam>Kwiek (R) F1</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Nieuw Heeten F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>HHZD F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Schalkhaar F3</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>13:20</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>LHC E1</Uitteam>
+    <Scheidsrechter_1>Simone Tijs</Scheidsrechter_1>
+    <Scheidsrechter_2>Fenna Kemper</Scheidsrechter_2>
+    <Zaaldienst>Mandy Oldeboer + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>14:15</Tijd>
+    <Thuisteam>Haarle D1</Thuisteam>
+    <Uitteam>ABS D1</Uitteam>
+    <Scheidsrechter_1>Liv Aben</Scheidsrechter_1>
+    <Scheidsrechter_2>Floor Knobben</Scheidsrechter_2>
+    <Zaaldienst>Mirthe Neulen + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>15:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>ABS DC2</Uitteam>
+    <Scheidsrechter_1>Britt Wolterink</Scheidsrechter_1>
+    <Scheidsrechter_2>Lieke Tibben</Scheidsrechter_2>
+    <Zaaldienst>Mirthe Neulen + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>16:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>DSC DB1</Uitteam>
+    <Scheidsrechter_1>Manouk Willems</Scheidsrechter_1>
+    <Scheidsrechter_2>Rosa Kemper</Scheidsrechter_2>
+    <Zaaldienst>Lyan Hobert + ouder B2</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>LHC DB1</Uitteam>
+    <Scheidsrechter_1>Sharon Verschoor</Scheidsrechter_1>
+    <Scheidsrechter_2>Indy Middelkamp</Scheidsrechter_2>
+    <Zaaldienst>Lyan Hobert + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>Voorwaarts DA2</Uitteam>
+    <Scheidsrechter_1>Regio-Romy ten Have</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Lieke Spoolder + Liv Aben</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-10-2021</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>Huissen HV DS1</Uitteam>
+    <Scheidsrechter_1>Bons, P.</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Jeannette Kemper + Jolanda Oosterwechel + Christel Knobben + Femy Cents</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>13-10-2021</Datum>
+    <Tijd>20:15</Tijd>
+    <Thuisteam>Haarle DMW1</Thuisteam>
+    <Uitteam>Nieuw Heeten DMW1</Uitteam>
+    <Scheidsrechter_1>Peter Linthorst</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Mirron Aben + Floortje Besten</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>16-10-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>Dalfsen E1</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>16-10-2021</Datum>
+    <Tijd>16:00</Tijd>
+    <Thuisteam>Harderwijk D1</Thuisteam>
+    <Uitteam>Haarle D1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>16-10-2021</Datum>
+    <Tijd>16:45</Tijd>
+    <Thuisteam>Wesepe DB1#</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>16-10-2021</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>HHZD DA2</Uitteam>
+    <Scheidsrechter_1>Regio-Rhona Bieleman</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Ina Bessembinder + Sandra Krukkert-Vosman</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>16-10-2021</Datum>
+    <Tijd>18:30</Tijd>
+    <Thuisteam>SDOL DC2</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>16-10-2021</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>Havana DS1</Uitteam>
+    <Scheidsrechter_1>Scheidsrechter, Kedingen 1</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Rieky Schotman + Irma Tielbeke + Jacqueline Bruggeman + Sandra Ruiter</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>27-10-2021</Datum>
+    <Tijd>20:00</Tijd>
+    <Thuisteam>Holten DMW1</Thuisteam>
+    <Uitteam>Haarle DMW1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>CVO F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>11:20</Tijd>
+    <Thuisteam>Schalkhaar F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>12:30</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>13:10</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Schalkhaar F3</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>13:30</Tijd>
+    <Thuisteam>HHZD F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>12:45</Tijd>
+    <Thuisteam>Swift &apos;64 DB1#</Thuisteam>
+    <Uitteam>Haarle DB2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>14:20</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>Achilles AHV E2</Uitteam>
+    <Scheidsrechter_1>Elke Kemperman</Scheidsrechter_1>
+    <Scheidsrechter_2>Ellis Kemper</Scheidsrechter_2>
+    <Zaaldienst>Marit Zandman + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>15:15</Tijd>
+    <Thuisteam>Haarle D1</Thuisteam>
+    <Uitteam>CVO D1</Uitteam>
+    <Scheidsrechter_1>Elyn Hobert</Scheidsrechter_1>
+    <Scheidsrechter_2>Esmee Bergboer</Scheidsrechter_2>
+    <Zaaldienst>Marit Zandman + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>16:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>HHZD DC2</Uitteam>
+    <Scheidsrechter_1>Meike Grondhuis</Scheidsrechter_1>
+    <Scheidsrechter_2>Danique Pennings</Scheidsrechter_2>
+    <Zaaldienst>Sanne Cents + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>Schalkhaar DB1</Uitteam>
+    <Scheidsrechter_1>Elke Kemperman</Scheidsrechter_1>
+    <Scheidsrechter_2>Ellis Kemper</Scheidsrechter_2>
+    <Zaaldienst>Sanne Cents + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-10-2021</Datum>
+    <Tijd>19:00</Tijd>
+    <Thuisteam>HCL DS1</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1> Wit, L. de, Montfort, M.J.G.R. van </Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>6-11-2021</Datum>
+    <Tijd>11:25</Tijd>
+    <Thuisteam>Schalkhaar DC3</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>6-11-2021</Datum>
+    <Tijd>13:10</Tijd>
+    <Thuisteam>Voorwaarts E2</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>6-11-2021</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>Lettele DB1</Uitteam>
+    <Scheidsrechter_1>Ina Bessembinder</Scheidsrechter_1>
+    <Scheidsrechter_2>Sandra Krukkert-Vosman</Scheidsrechter_2>
+    <Zaaldienst>Jasmijn Kemper + ouder B2</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>6-11-2021</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>Lettele DA1</Uitteam>
+    <Scheidsrechter_1>Regio-Willy Wissink</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Lisa Mijsters + Lieke Tibben</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>6-11-2021</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>HHZD DS1</Uitteam>
+    <Scheidsrechter_1>Scheidsrechter, Wesepe 1</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Linda Schotman + Marloes Nijenkamp + Kim Nijenkamp + Esther Nijenkamp</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>7-11-2021</Datum>
+    <Tijd>12:00</Tijd>
+    <Thuisteam>Voorwaarts DB2</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>10-11-2021</Datum>
+    <Tijd>20:30</Tijd>
+    <Thuisteam>Swift &apos;64 DA1</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>13-11-2021</Datum>
+    <Tijd>11:35</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>HHZD E1</Uitteam>
+    <Scheidsrechter_1>Lisa Mijsters</Scheidsrechter_1>
+    <Scheidsrechter_2>Mirre Langkamp</Scheidsrechter_2>
+    <Zaaldienst>Floor Knobben + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>13-11-2021</Datum>
+    <Tijd>12:30</Tijd>
+    <Thuisteam>Haarle D1</Thuisteam>
+    <Uitteam>AH van de Worp.H.H.Z.D. D1#</Uitteam>
+    <Scheidsrechter_1>Dion Hobert</Scheidsrechter_1>
+    <Scheidsrechter_2>Rosa Kemper</Scheidsrechter_2>
+    <Zaaldienst>Floor Knobben + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>13-11-2021</Datum>
+    <Tijd>16:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>Swift &apos;64 DC1</Uitteam>
+    <Scheidsrechter_1>Kez Aben</Scheidsrechter_1>
+    <Scheidsrechter_2>Elise Campmans</Scheidsrechter_2>
+    <Zaaldienst>Fenna Kemper + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>13-11-2021</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>Zwolle DB2</Uitteam>
+    <Scheidsrechter_1>Lyan Hobert</Scheidsrechter_1>
+    <Scheidsrechter_2>Lisanne Besten</Scheidsrechter_2>
+    <Zaaldienst>Fenna Kemper + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>14-11-2021</Datum>
+    <Tijd>10:30</Tijd>
+    <Thuisteam>Klarenbeek DA1</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>14-11-2021</Datum>
+    <Tijd>12:00</Tijd>
+    <Thuisteam>HHZD DB1</Thuisteam>
+    <Uitteam>Haarle DB2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>14-11-2021</Datum>
+    <Tijd>13:00</Tijd>
+    <Thuisteam>Voorwaarts DS2</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1>Warffemius, H.</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>HHZD F1</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Schalkhaar F3</Thuisteam>
+    <Uitteam>Nieuw Heeten F1</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Nieuw Heeten F1</Thuisteam>
+    <Uitteam>Holten F1</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Kwiek (R) F3</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Kwiek (R) F3</Thuisteam>
+    <Uitteam>Broekland F1</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>HHZD F1</Thuisteam>
+    <Uitteam>Schalkhaar F3</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>Holten F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>HHZD F1</Thuisteam>
+    <Uitteam>Nieuw Heeten F1</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Schalkhaar F3</Thuisteam>
+    <Uitteam>Kwiek (R) F3</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>Holten F1</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>12:00</Tijd>
+    <Thuisteam>SDOL D2</Thuisteam>
+    <Uitteam>Haarle D1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>14:15</Tijd>
+    <Thuisteam>Overwetering E1</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>15:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>Swift &apos;64 DC2</Uitteam>
+    <Scheidsrechter_1>Inge Zwijnenberg</Scheidsrechter_1>
+    <Scheidsrechter_2>Lobke Smeenk</Scheidsrechter_2>
+    <Zaaldienst>Iris Kemper + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>16:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>Holten DB2</Uitteam>
+    <Scheidsrechter_1>Silvie Besten</Scheidsrechter_1>
+    <Scheidsrechter_2>Amy Knobben</Scheidsrechter_2>
+    <Zaaldienst>Ellis Kemper + Elke Kemperman</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>Heeten DB2</Uitteam>
+    <Scheidsrechter_1>Mirron Aben</Scheidsrechter_1>
+    <Scheidsrechter_2>Floortje Besten</Scheidsrechter_2>
+    <Zaaldienst>Ellis Kemper + Elke Kemperman</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>Dalfsen DA1</Uitteam>
+    <Scheidsrechter_1>Regio-Anton Koolhof</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Lieke Spoolder + Liv Aben</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-11-2021</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>LHC DS1</Uitteam>
+    <Scheidsrechter_1>Mosterman, A.</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Jeannette Kemper + Irma Middelkamp + Leonie Smeenk + Sigrid Velderman</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>21-11-2021</Datum>
+    <Tijd>11:00</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>ABS F1#</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>21-11-2021</Datum>
+    <Tijd>11:40</Tijd>
+    <Thuisteam>Dalfsen F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>21-11-2021</Datum>
+    <Tijd>12:20</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>21-11-2021</Datum>
+    <Tijd>12:40</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>27-11-2021</Datum>
+    <Tijd>09:45</Tijd>
+    <Thuisteam>Lettele DC1</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>27-11-2021</Datum>
+    <Tijd>15:20</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>SC Klarenbeek E1#</Uitteam>
+    <Scheidsrechter_1>Michelle Tijs</Scheidsrechter_1>
+    <Scheidsrechter_2>Silvie Besten</Scheidsrechter_2>
+    <Zaaldienst>Dion Hobert + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>27-11-2021</Datum>
+    <Tijd>16:15</Tijd>
+    <Thuisteam>Haarle D1</Thuisteam>
+    <Uitteam>SC Klarenbeek D1#</Uitteam>
+    <Scheidsrechter_1>Sanne Cents</Scheidsrechter_1>
+    <Scheidsrechter_2>Lieke Spoolder</Scheidsrechter_2>
+    <Zaaldienst>Dion Hobert + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>27-11-2021</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>Schalkhaar DB2</Uitteam>
+    <Scheidsrechter_1>Miranda Veldkamp</Scheidsrechter_1>
+    <Scheidsrechter_2>Sandra Heerink</Scheidsrechter_2>
+    <Zaaldienst>Amber Kemper + ouder B2</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>27-11-2021</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>DSC DA1</Uitteam>
+    <Scheidsrechter_1>Regio-Eric Bootsveld</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Lobke Smeenk + Ina Bessembinder</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>27-11-2021</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>AHV Achilles DB1#</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1>wedstrijd wordt verplaatst</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>27-11-2021</Datum>
+    <Tijd>18:45</Tijd>
+    <Thuisteam>Wijhe &apos;92 DS2</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>4-12-2021</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Wijhe &apos;92 E2</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>4-12-2021</Datum>
+    <Tijd>09:45</Tijd>
+    <Thuisteam>Dalfsen D1</Thuisteam>
+    <Uitteam>Haarle D1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>4-12-2021</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>DSC DC2</Uitteam>
+    <Scheidsrechter_1>Mirthe Neulen</Scheidsrechter_1>
+    <Scheidsrechter_2>Marit Zandman</Scheidsrechter_2>
+    <Zaaldienst>Lotte Reimert + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>4-12-2021</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>Wesepe DS1</Uitteam>
+    <Scheidsrechter_1>Bond</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Irma Middelkamp + Anja Ten Have + Irma Tielbeke + Jacqueline Bruggeman</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>8-12-2021</Datum>
+    <Tijd>21:00</Tijd>
+    <Thuisteam>Haarle DMW1</Thuisteam>
+    <Uitteam>Heeten DMW1</Uitteam>
+    <Scheidsrechter_1>Peter Linthorst</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Amy Knobben + Wieke Rodijk</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-12-2021</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>DSC E1</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-12-2021</Datum>
+    <Tijd>10:55</Tijd>
+    <Thuisteam>DSC DB1</Thuisteam>
+    <Uitteam>Haarle DB2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-12-2021</Datum>
+    <Tijd>12:30</Tijd>
+    <Thuisteam>Kwiek (R) DC4</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-12-2021</Datum>
+    <Tijd>16:45</Tijd>
+    <Thuisteam>Broekland DB1</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>11-12-2021</Datum>
+    <Tijd>20:20</Tijd>
+    <Thuisteam>CVO DS1</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1>Rijpkema, K.P.S.S.</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-12-2021</Datum>
+    <Tijd>12:00</Tijd>
+    <Thuisteam>Voorwaarts DA2</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-12-2021</Datum>
+    <Tijd>20:30</Tijd>
+    <Thuisteam>Wijhe &apos;92 DMW1</Thuisteam>
+    <Uitteam>Haarle DMW1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>18-12-2021</Datum>
+    <Tijd>15:20</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>Schalkhaar E3</Uitteam>
+    <Scheidsrechter_1>Simone Tijs</Scheidsrechter_1>
+    <Scheidsrechter_2>Mirre Langkamp</Scheidsrechter_2>
+    <Zaaldienst>Silvie Besten + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>18-12-2021</Datum>
+    <Tijd>16:15</Tijd>
+    <Thuisteam>Haarle D1</Thuisteam>
+    <Uitteam>Kwiek (R) D2</Uitteam>
+    <Scheidsrechter_1>Liv Aben</Scheidsrechter_1>
+    <Scheidsrechter_2>Floor Knobben</Scheidsrechter_2>
+    <Zaaldienst>Silvie Besten + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>18-12-2021</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>Holten DC2</Uitteam>
+    <Scheidsrechter_1>Britt Wolterink</Scheidsrechter_1>
+    <Scheidsrechter_2>Lieke Tibben</Scheidsrechter_2>
+    <Zaaldienst>Dion Blom + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>18-12-2021</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>Holten DB1</Uitteam>
+    <Scheidsrechter_1>Wieke Rodijk</Scheidsrechter_1>
+    <Scheidsrechter_2>Susan Bruggeman</Scheidsrechter_2>
+    <Zaaldienst>Dion Blom + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>18-12-2021</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>Angeren DS1</Uitteam>
+    <Scheidsrechter_1>Rooij, S. de</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Christel Knobben + Femy Cents + Rieky Schotman + Sandra Ruiter</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-12-2021</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-12-2021</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>CVO F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-12-2021</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Schalkhaar F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-12-2021</Datum>
+    <Tijd>11:00</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-12-2021</Datum>
+    <Tijd>11:40</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Schalkhaar F3</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-12-2021</Datum>
+    <Tijd>12:00</Tijd>
+    <Thuisteam>HHZD F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-12-2021</Datum>
+    <Tijd>12:00</Tijd>
+    <Thuisteam>HHZD DA2</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>8-1-2022</Datum>
+    <Tijd>13:20</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>Schalkhaar E2</Uitteam>
+    <Scheidsrechter_1>Dion Blom</Scheidsrechter_1>
+    <Scheidsrechter_2>Amy Knobben</Scheidsrechter_2>
+    <Zaaldienst>Senna Nijenkamp + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>8-1-2022</Datum>
+    <Tijd>14:15</Tijd>
+    <Thuisteam>Haarle D1</Thuisteam>
+    <Uitteam>Achilles AHV D1</Uitteam>
+    <Scheidsrechter_1>Elyn Hobert</Scheidsrechter_1>
+    <Scheidsrechter_2>Esmee Bergboer</Scheidsrechter_2>
+    <Zaaldienst>Elise Campmans + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>8-1-2022</Datum>
+    <Tijd>15:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>AHV Achilles DC2#</Uitteam>
+    <Scheidsrechter_1>Meike Grondhuis</Scheidsrechter_1>
+    <Scheidsrechter_2>Danique Pennings</Scheidsrechter_2>
+    <Zaaldienst>Elise Campmans + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>8-1-2022</Datum>
+    <Tijd>16:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>Swift &apos;64 DB1#</Uitteam>
+    <Scheidsrechter_1>Dion Hobert</Scheidsrechter_1>
+    <Scheidsrechter_2>Lotte Reimert</Scheidsrechter_2>
+    <Zaaldienst>Sharon Verschoor + ouder B2</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>8-1-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>ABS DB1</Uitteam>
+    <Scheidsrechter_1>Eline Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Indy Middelkamp</Scheidsrechter_2>
+    <Zaaldienst>Sharon Verschoor + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>8-1-2022</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>Swift &apos;64 DA1</Uitteam>
+    <Scheidsrechter_1>Regio-Romy ten Have</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Elyn Hobert + Esmee Bergboer</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>8-1-2022</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>ABS DS1</Uitteam>
+    <Scheidsrechter_1>Bond</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Linda Schotman + Marloes Nijenkamp + Kim Nijenkamp + Esther Nijenkamp</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-1-2022</Datum>
+    <Tijd>21:00</Tijd>
+    <Thuisteam>Haarle DMW1</Thuisteam>
+    <Uitteam>HHZD DMW1</Uitteam>
+    <Scheidsrechter_1>Wieke Rodijk</Scheidsrechter_1>
+    <Scheidsrechter_2>Susan Bruggeman</Scheidsrechter_2>
+    <Zaaldienst>Hilde Ruiter + Maxime Maatman</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>09:15</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>HHZD F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>09:35</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>10:15</Tijd>
+    <Thuisteam>Nieuw Heeten F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>10:55</Tijd>
+    <Thuisteam>Schalkhaar F3</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>13:35</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>13:55</Tijd>
+    <Thuisteam>CVO F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>14:35</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Schalkhaar F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>14:00</Tijd>
+    <Thuisteam>ABS D1</Thuisteam>
+    <Uitteam>Haarle D1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>15:00</Tijd>
+    <Thuisteam>ABS DC2</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Lettele DB1</Thuisteam>
+    <Uitteam>Haarle DB2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Lettele DA1</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>15-1-2022</Datum>
+    <Tijd>19:15</Tijd>
+    <Thuisteam>Huissen HV DS1</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>16-1-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>LHC E1</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>16-1-2022</Datum>
+    <Tijd>14:25</Tijd>
+    <Thuisteam>LHC DB1</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>22-1-2022</Datum>
+    <Tijd>13:20</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>Dalfsen E1</Uitteam>
+    <Scheidsrechter_1>Sanne Cents</Scheidsrechter_1>
+    <Scheidsrechter_2>Lieke Spoolder</Scheidsrechter_2>
+    <Zaaldienst>Sabine Wicherschreur + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>22-1-2022</Datum>
+    <Tijd>14:15</Tijd>
+    <Thuisteam>Haarle D1</Thuisteam>
+    <Uitteam>Harderwijk D1</Uitteam>
+    <Scheidsrechter_1>Simone Tijs</Scheidsrechter_1>
+    <Scheidsrechter_2>Fenna Kemper</Scheidsrechter_2>
+    <Zaaldienst>Michelle Tijs + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>22-1-2022</Datum>
+    <Tijd>15:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>SDOL DC2</Uitteam>
+    <Scheidsrechter_1>Kez Aben</Scheidsrechter_1>
+    <Scheidsrechter_2>Lisa Mijsters</Scheidsrechter_2>
+    <Zaaldienst>Michelle Tijs + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>22-1-2022</Datum>
+    <Tijd>16:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>HHZD DB1</Uitteam>
+    <Scheidsrechter_1>Michelle Tijs</Scheidsrechter_1>
+    <Scheidsrechter_2>Dion Blom</Scheidsrechter_2>
+    <Zaaldienst>Susan Bruggeman + ouder B2</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>22-1-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>Wesepe DB1#</Uitteam>
+    <Scheidsrechter_1>Lyan Hobert</Scheidsrechter_1>
+    <Scheidsrechter_2>Lisanne Besten</Scheidsrechter_2>
+    <Zaaldienst>Sophie Daggenvoorde + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>22-1-2022</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>Klarenbeek DA1</Uitteam>
+    <Scheidsrechter_1>Regio-Broekland</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Eline Kemper + Indy Middelkamp</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>23-1-2022</Datum>
+    <Tijd>11:00</Tijd>
+    <Thuisteam>Havana DS1</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>26-1-2022</Datum>
+    <Tijd>21:00</Tijd>
+    <Thuisteam>Haarle DMW1</Thuisteam>
+    <Uitteam>ABS DMW1</Uitteam>
+    <Scheidsrechter_1>Eline Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Indy Middelkamp</Scheidsrechter_2>
+    <Zaaldienst>Amy Knobben + Wieke Rodijk</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>CVO D1</Thuisteam>
+    <Uitteam>Haarle D1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Dalfsen F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>ABS F1#</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Kwiek (R) F3</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Nieuw Heeten F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Holten F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>09:30</Tijd>
+    <Thuisteam>Achilles AHV E2</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Holten DB2</Thuisteam>
+    <Uitteam>Haarle DB2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Kwiek (R) F3</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>29-1-2022</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>HCL DS1</Uitteam>
+    <Scheidsrechter_1>Bond</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Anja ten Have + Leonie Smeenk + Sigrid Velderman + Jeannette Kemper</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-1-2022</Datum>
+    <Tijd>11:00</Tijd>
+    <Thuisteam>Dalfsen DA1</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-1-2022</Datum>
+    <Tijd>11:00</Tijd>
+    <Thuisteam>Schalkhaar DB1</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>30-1-2022</Datum>
+    <Tijd>11:00</Tijd>
+    <Thuisteam>HHZD DC2</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>2-2-2022</Datum>
+    <Tijd>20:45</Tijd>
+    <Thuisteam>Nieuw Heeten DMW1</Thuisteam>
+    <Uitteam>Haarle DMW1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-2-2022</Datum>
+    <Tijd>15:05</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>Voorwaarts E2</Uitteam>
+    <Scheidsrechter_1>Dion Blom</Scheidsrechter_1>
+    <Scheidsrechter_2>Amy Knobben</Scheidsrechter_2>
+    <Zaaldienst>Rosa Kemper + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-2-2022</Datum>
+    <Tijd>16:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>Schalkhaar DC3</Uitteam>
+    <Scheidsrechter_1>Mirthe Neulen</Scheidsrechter_1>
+    <Scheidsrechter_2>Marit Zandman</Scheidsrechter_2>
+    <Zaaldienst>Rosa Kemper + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-2-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>Voorwaarts DB2</Uitteam>
+    <Scheidsrechter_1>Wieke Rodijk</Scheidsrechter_1>
+    <Scheidsrechter_2>Susan Bruggeman</Scheidsrechter_2>
+    <Zaaldienst>Lotte Reimert + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-2-2022</Datum>
+    <Tijd>20:40</Tijd>
+    <Thuisteam>HHZD DS1</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>6-2-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>DSC DA1</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>6-2-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>Schalkhaar DB2</Thuisteam>
+    <Uitteam>Haarle DB2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>ABS F1#</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Dalfsen F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>10:30</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Kwiek (R) F3</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>11:10</Tijd>
+    <Thuisteam>Holten F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>11:30</Tijd>
+    <Thuisteam>Nieuw Heeten F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>09:55</Tijd>
+    <Thuisteam>HHZD E1</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>10:50</Tijd>
+    <Thuisteam>AH van de Worp.H.H.Z.D. D1#</Thuisteam>
+    <Uitteam>Haarle D1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>11:00</Tijd>
+    <Thuisteam>Swift &apos;64 DC1</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>11:25</Tijd>
+    <Thuisteam>Zwolle DB2</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>DSC DB1</Uitteam>
+    <Scheidsrechter_1>Sharon Verschoor</Scheidsrechter_1>
+    <Scheidsrechter_2>Lisanne Besten</Scheidsrechter_2>
+    <Zaaldienst>Eva Blankhorst + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>Voorwaarts DA2</Uitteam>
+    <Scheidsrechter_1>Regio-Willy Wissink</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Susan Bruggeman + Manouk Willems</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-2-2022</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>Voorwaarts DS2</Uitteam>
+    <Scheidsrechter_1>Bond</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Jolanda Oosterwechel + Christel Knobben + Jacqueline Bruggeman + Anja ten Have</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>16-2-2022</Datum>
+    <Tijd>21:00</Tijd>
+    <Thuisteam>Haarle DMW1</Thuisteam>
+    <Uitteam>Holten DMW1</Uitteam>
+    <Scheidsrechter_1>Lyan Hobert</Scheidsrechter_1>
+    <Scheidsrechter_2>Lisanne Besten</Scheidsrechter_2>
+    <Zaaldienst>Eline Kemper + Indy Middelkamp</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Kwiek (R) F2</Thuisteam>
+    <Uitteam>ABS F1#</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Dalfsen F1</Thuisteam>
+    <Uitteam>CVO F1</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Schalkhaar F1</Thuisteam>
+    <Uitteam>Kwiek (R) F1</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F2</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Dalfsen F1</Thuisteam>
+    <Uitteam>ABS F1#</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>CVO F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>Kwiek (R) F1</Thuisteam>
+    <Uitteam>Dalfsen F1</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>CVO F1</Thuisteam>
+    <Uitteam>Kwiek (R) F2</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>ABS F1#</Thuisteam>
+    <Uitteam>Kwiek (R) F1</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Schalkhaar F1</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Schalkhaar F1</Thuisteam>
+    <Uitteam>Kwiek (R) F2</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>HHZD F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>Nieuw Heeten F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Schalkhaar F3</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>11:10</Tijd>
+    <Thuisteam>Swift &apos;64 DC2</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>15:20</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>Overwetering E1</Uitteam>
+    <Scheidsrechter_1>Simone Tijs</Scheidsrechter_1>
+    <Scheidsrechter_2>Fenna Kemper</Scheidsrechter_2>
+    <Zaaldienst>Marit Albers + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>16:15</Tijd>
+    <Thuisteam>Haarle D1</Thuisteam>
+    <Uitteam>SDOL D2</Uitteam>
+    <Scheidsrechter_1>Sanne Cents</Scheidsrechter_1>
+    <Scheidsrechter_2>Lieke Spoolder</Scheidsrechter_2>
+    <Zaaldienst>Marit Albers + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>Zwolle DB3</Uitteam>
+    <Scheidsrechter_1>Inge Zwijnenberg</Scheidsrechter_1>
+    <Scheidsrechter_2>Lobke Smeenk</Scheidsrechter_2>
+    <Zaaldienst>Maud Hauptmeijer + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>5-3-2022</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>HHZD DA2</Uitteam>
+    <Scheidsrechter_1>Regio-Willy Wissink</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Danique Pennings + Lisa Mijsters</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>6-3-2022</Datum>
+    <Tijd>12:20</Tijd>
+    <Thuisteam>LHC DS1</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>6-3-2022</Datum>
+    <Tijd>13:15</Tijd>
+    <Thuisteam>Heeten DB2</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-3-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>SC Klarenbeek E1#</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-3-2022</Datum>
+    <Tijd>10:55</Tijd>
+    <Thuisteam>SC Klarenbeek D1#</Thuisteam>
+    <Uitteam>Haarle D1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-3-2022</Datum>
+    <Tijd>11:55</Tijd>
+    <Thuisteam>Swift &apos;64 DB1#</Thuisteam>
+    <Uitteam>Haarle DB2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-3-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>Lettele DC1</Uitteam>
+    <Scheidsrechter_1>Elise Campmans</Scheidsrechter_1>
+    <Scheidsrechter_2>Lisa Mijsters</Scheidsrechter_2>
+    <Zaaldienst>Mirron Aben + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-3-2022</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>AHV Achilles DB1#</Uitteam>
+    <Scheidsrechter_1>Ina Bessembinder</Scheidsrechter_1>
+    <Scheidsrechter_2>Sandra Krukkert-Vosman</Scheidsrechter_2>
+    <Zaaldienst>Elyn Hobert + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-3-2022</Datum>
+    <Tijd>18:50</Tijd>
+    <Thuisteam>Swift &apos;64 DA1</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>12-3-2022</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>Wijhe &apos;92 DS2</Uitteam>
+    <Scheidsrechter_1>Bond</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Femy Cents + Irma Middelkamp + Irma Tielbeke + Rieky Schotman</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>13:00</Tijd>
+    <Thuisteam>Kwiek (R) F3</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>13:40</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Holten F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>14:20</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Nieuw Heeten F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>ABS F1#</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Dalfsen F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>11:20</Tijd>
+    <Thuisteam>Kwiek (R) F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>11:35</Tijd>
+    <Thuisteam>DSC DC2</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>15:20</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>Wijhe &apos;92 E2</Uitteam>
+    <Scheidsrechter_1>Elyn Hobert</Scheidsrechter_1>
+    <Scheidsrechter_2>Esmee Bergboer</Scheidsrechter_2>
+    <Zaaldienst>Mandy Oldeboer + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>16:15</Tijd>
+    <Thuisteam>Haarle D1</Thuisteam>
+    <Uitteam>Dalfsen D1</Uitteam>
+    <Scheidsrechter_1>Mirre Langkamp</Scheidsrechter_1>
+    <Scheidsrechter_2>Fenna Kemper</Scheidsrechter_2>
+    <Zaaldienst>Sabine Wicherschreur + ouder D1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>Lettele DB1</Uitteam>
+    <Scheidsrechter_1>Miranda Veldkamp</Scheidsrechter_1>
+    <Scheidsrechter_2>Sandra Heerink</Scheidsrechter_2>
+    <Zaaldienst>Senna Nijenkamp + ouder B2</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>Lettele DA1</Uitteam>
+    <Scheidsrechter_1>Regio-Eric Bootsveld</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Lieke Tibben + Danique Pennings</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>19-3-2022</Datum>
+    <Tijd>19:00</Tijd>
+    <Thuisteam>Wesepe DS1</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>2-4-2022</Datum>
+    <Tijd>16:05</Tijd>
+    <Thuisteam>Haarle E1</Thuisteam>
+    <Uitteam>DSC E1</Uitteam>
+    <Scheidsrechter_1>Liv Aben</Scheidsrechter_1>
+    <Scheidsrechter_2>Floor Knobben</Scheidsrechter_2>
+    <Zaaldienst>Manouk Willems + ouder E1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>2-4-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>Kwiek (R) DC4</Uitteam>
+    <Scheidsrechter_1>Britt Wolterink</Scheidsrechter_1>
+    <Scheidsrechter_2>Lieke Tibben</Scheidsrechter_2>
+    <Zaaldienst>Esmee Bergboer + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>2-4-2022</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DB1</Thuisteam>
+    <Uitteam>Broekland DB1</Uitteam>
+    <Scheidsrechter_1>Mirron Aben</Scheidsrechter_1>
+    <Scheidsrechter_2>Floortje Besten</Scheidsrechter_2>
+    <Zaaldienst>Sandra Krukkert - Vosman + ouder B1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>2-4-2022</Datum>
+    <Tijd>19:45</Tijd>
+    <Thuisteam>Haarle DS1</Thuisteam>
+    <Uitteam>CVO DS1</Uitteam>
+    <Scheidsrechter_1>Bond</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Leonie Smeenk + Sandra Ruiter + Sigrid Velderman + Jolanda Oosterwechel</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>3-4-2022</Datum>
+    <Tijd>11:40</Tijd>
+    <Thuisteam>Klarenbeek DA1</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>3-4-2022</Datum>
+    <Tijd>12:00</Tijd>
+    <Thuisteam>HHZD DB1</Thuisteam>
+    <Uitteam>Haarle DB2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>8-4-2022</Datum>
+    <Tijd>21:00</Tijd>
+    <Thuisteam>Heeten DMW1</Thuisteam>
+    <Uitteam>Haarle DMW1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>HHZD F1</Thuisteam>
+    <Uitteam>Kwiek (R) F3</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Holten F1</Thuisteam>
+    <Uitteam>HHZD F1</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>09:20</Tijd>
+    <Thuisteam>Nieuw Heeten F1</Thuisteam>
+    <Uitteam>Kwiek (R) F3</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Broekland F1</Thuisteam>
+    <Uitteam>Nieuw Heeten F1</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>09:40</Tijd>
+    <Thuisteam>Haarle F2</Thuisteam>
+    <Uitteam>Schalkhaar F3</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>Kwiek (R) F3</Thuisteam>
+    <Uitteam>Holten F1</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>10:00</Tijd>
+    <Thuisteam>HHZD F1</Thuisteam>
+    <Uitteam>Haarle F2</Uitteam>
+    <Scheidsrechter_1>Marit Albers</Scheidsrechter_1>
+    <Scheidsrechter_2>Maud Hauptmeijer</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Nieuw Heeten F1</Thuisteam>
+    <Uitteam>Holten F1</Uitteam>
+    <Scheidsrechter_1>Mandy Oldeboer</Scheidsrechter_1>
+    <Scheidsrechter_2>Sabine Wichers Schreur</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>10:20</Tijd>
+    <Thuisteam>Schalkhaar F3</Thuisteam>
+    <Uitteam>Broekland F1</Uitteam>
+    <Scheidsrechter_1>Sophie Daggenvoorde</Scheidsrechter_1>
+    <Scheidsrechter_2>Eva Blankhorst</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Schalkhaar F3</Thuisteam>
+    <Uitteam>HHZD F1</Uitteam>
+    <Scheidsrechter_1>Jasmijn Kemper</Scheidsrechter_1>
+    <Scheidsrechter_2>Senna Nijenkamp</Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi in Haarle</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>09:30</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>Kwiek (R) F2</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>10:10</Tijd>
+    <Thuisteam>Haarle F1</Thuisteam>
+    <Uitteam>CVO F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>10:50</Tijd>
+    <Thuisteam>Schalkhaar F1</Thuisteam>
+    <Uitteam>Haarle F1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>F-Toernooi</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>09:00</Tijd>
+    <Thuisteam>Schalkhaar E3</Thuisteam>
+    <Uitteam>Haarle E1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>10:40</Tijd>
+    <Thuisteam>Holten DC2</Thuisteam>
+    <Uitteam>Haarle DC1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>12:00</Tijd>
+    <Thuisteam>Kwiek (R) D2</Thuisteam>
+    <Uitteam>Haarle D1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>12:40</Tijd>
+    <Thuisteam>Holten DB1</Thuisteam>
+    <Uitteam>Haarle DB1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>17:00</Tijd>
+    <Thuisteam>Haarle DB2</Thuisteam>
+    <Uitteam>Holten DB2</Uitteam>
+    <Scheidsrechter_1>Sonja Roessink</Scheidsrechter_1>
+    <Scheidsrechter_2>Annemiek Schokker</Scheidsrechter_2>
+    <Zaaldienst>Sophie Daggenvoorde + ouder B2</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>18:00</Tijd>
+    <Thuisteam>Haarle DA1</Thuisteam>
+    <Uitteam>Dalfsen DA1</Uitteam>
+    <Scheidsrechter_1>Regio-Rhona Bieleman</Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst>Maxime Maatman + Vera ten Have</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>9-4-2022</Datum>
+    <Tijd>20:20</Tijd>
+    <Thuisteam>Angeren DS1</Thuisteam>
+    <Uitteam>Haarle DS1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>20-4-2022</Datum>
+    <Tijd>21:00</Tijd>
+    <Thuisteam>Haarle DMW1</Thuisteam>
+    <Uitteam>Wijhe &apos;92 DMW1</Uitteam>
+    <Scheidsrechter_1>Sharon Verschoor</Scheidsrechter_1>
+    <Scheidsrechter_2>Eline Kemper</Scheidsrechter_2>
+    <Zaaldienst>Lisanne Besten + Demi Ruiter</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>10-5-2022</Datum>
+    <Tijd>21:00</Tijd>
+    <Thuisteam>HHZD DMW1</Thuisteam>
+    <Uitteam>Haarle DMW1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum></Datum>
+    <Tijd></Tijd>
+    <Thuisteam></Thuisteam>
+    <Uitteam></Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>13-11-2021</Datum>
+    <Tijd>16:00</Tijd>
+    <Thuisteam>Haarle DC1</Thuisteam>
+    <Uitteam>Swift &apos;64 DC1</Uitteam>
+    <Scheidsrechter_1>Kez Aben</Scheidsrechter_1>
+    <Scheidsrechter_2>Dion Hobert</Scheidsrechter_2>
+    <Zaaldienst>Fenna Kemper + ouder C1</Zaaldienst>
+  </Wedstrijd>
+  <Wedstrijd>
+    <Datum>14-11-2021</Datum>
+    <Tijd>10:30</Tijd>
+    <Thuisteam>Klarenbeek DA1</Thuisteam>
+    <Uitteam>Haarle DA1</Uitteam>
+    <Scheidsrechter_1></Scheidsrechter_1>
+    <Scheidsrechter_2></Scheidsrechter_2>
+    <Zaaldienst></Zaaldienst>
+  </Wedstrijd>
+</root>
