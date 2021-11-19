@@ -28,9 +28,6 @@ while (($data = fgetcsv($file, 10000, ",")) !== FALSE) {
     }
 }
 
-
-//Header('Content-type: text/xml');
-
 //put the finished xml var in the xml class
 $finisedXml = $xml->asXML();
 

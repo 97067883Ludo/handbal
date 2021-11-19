@@ -48,6 +48,7 @@ foreach ($xml as $key => $value) {
         if ($explodedTeamT[0] == "Haarle") {
             $haarleT = 1;
         }
+        
         if ($explodedTeamU[0] == "Haarle") {
             $haarleU = 1;
         }

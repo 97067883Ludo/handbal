@@ -23,12 +23,8 @@
         <?php
 
 
-        if(file_exists('Wedstrijdlijst.xml')){
-            $xml = simplexml_load_file("Wedstrijdlijst.xml");
-        }else{
-            echo"fout bij laden van bestand...";
-            die;
-        }
+        $xml = simplexml_load_file("Wedstrijdlijst.xml") or die("Fout bij het laden van bestand...");
+
         $i = 0;
             echo'
             <table class="table">
