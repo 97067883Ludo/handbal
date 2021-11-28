@@ -6,6 +6,13 @@ $file = fopen("updateLijst/Wedstrijdlijst-csv.csv", "r") or die("Fout bij het la
 //get the first line of the csv file and place it in an array
 $header = fgetcsv($file);
 
+//get header from csv file 
+$baseheader = fgetcsv($file);
+
+//replace header items with Schr._1, Schr._2
+$replacements = array(7 => "Scheidsrechter_1", 8 => "Scheidsrechter_2");
+$header = array_replace($baseheader, $replacements);
+
 //create new xml class
 $xml = new SimpleXMLElement('<xml/>'); 
 
