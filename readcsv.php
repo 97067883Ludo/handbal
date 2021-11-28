@@ -3,8 +3,7 @@
 //open csv file
 $file = fopen("updateLijst/Wedstrijdlijst-csv.csv", "r") or die("Fout bij het laden van bestand");
 
-//get the first line of the csv file and place it in an array
-$header = fgetcsv($file);
+
 
 //get header from csv file 
 $baseheader = fgetcsv($file);
