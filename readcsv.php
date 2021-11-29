@@ -10,6 +10,7 @@ $baseheader = fgetcsv($file);
 $replacements = array(7 => "Scheidsrechter_1", 8 => "Scheidsrechter_2");
 $header = array_replace($baseheader, $replacements);
 
+print_r($header);
 //create new xml class
 $xml = new SimpleXMLElement('<xml/>'); 
 
@@ -32,7 +33,7 @@ while (($data = fgetcsv($file, 10000, ",")) !== FALSE) {
     }
 }
 
-//put the finished xml var in the xml class
+//put the "finishedxml" var in the xml class
 $finisedXml = $xml->asXML();
 
 //write the variable to the file
@@ -40,6 +41,6 @@ file_put_contents('Wedstrijdlijst.xml', $finisedXml);
 //close the file 
 fclose($file);
 //send user back to the index.php
-header("Location: index.php");
+header("Location:  localhost/handbal");
 
 ?>

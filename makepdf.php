@@ -37,9 +37,13 @@ $data .= '
     <th style="border: 1px solid black; background-color:grey;">Tafeldienst</th>
 </tr>';
 
+$max = count($selected);
 $ii =0;
 $i =0;
 foreach ($xml as $key => $value) {
+    if ($max == $ii) {
+        break;
+    }
     if ($selected[$ii] == $i) {
         $teamU = array();
         $teamT = array();

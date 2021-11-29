@@ -25,10 +25,10 @@ $selected = $_POST['product'];
 if ($selected == NULL) {
     header("Location: index.php");
 }
+$max = count($selected);
 $ii =0;
 $i =0;
 $teller =1;
-
 
 echo'
 <table class="table">
@@ -48,6 +48,9 @@ echo'
 ';
 
 foreach ($xml as $key => $value) {
+    if ($max == $ii) {
+        break;
+    }
     if ($selected[$ii] == $i) {
         echo '
         <tr>
