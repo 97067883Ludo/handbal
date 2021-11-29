@@ -18,12 +18,13 @@ foreach ($xlsx->rows() as $row => $value) {
         $headerSize = count($header);
         continue;
     }
+    
     echo"Wedstrijd: <br />";
     for ($i=0; $i < $headerSize; $i++) {
         echo $header[$i];
         //kijk of de het een datum of tijd is, dit moet gefixed worden
         if ($header[$i] == "Datum" || $header[$i] == "Tijd") {
-            
+
             //call fixDateTime function om datum en tijd te fixen
            $fixedTime = fixDateTime($value[$i], $header[$i]);
 
@@ -41,9 +42,6 @@ foreach ($xlsx->rows() as $row => $value) {
         echo '<br />';
         }
     }
-    //echo "row $row ";
-    //print_r($value);
-    //echo"<br />";
 
 }
 function fixDateTime($dateTime, $hoursOrDate){
@@ -51,7 +49,7 @@ function fixDateTime($dateTime, $hoursOrDate){
     $explodedDate = explode(" ", $dateTime);
     //print_r($explodedDate);
     if ($hoursOrDate == "Datum") {
-     return  $explodedDate[0];
+        return  $explodedDate[0];
     }else{
         return $explodedDate[1];
     }
