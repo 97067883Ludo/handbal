@@ -5,12 +5,6 @@ $file = 'wedstrijden.xlsx';
 
 $xlsx = new SimpleXLSX($file);
 
-/*if ( $xlsx = SimpleXLSX::parse($file)) {
-    echo"yooo";
-}
-else{
-    echo "fout";
-}*/
 foreach ($xlsx->rows() as $row => $value) {
 
     if ($row == 0) {
@@ -28,7 +22,7 @@ foreach ($xlsx->rows() as $row => $value) {
             //call fixDateTime function om datum en tijd te fixen
            $fixedTime = fixDateTime($value[$i], $header[$i]);
 
-           //als de date time fix is gefaald dan trow error en die
+           //als de date time fix is gefaald trow error en die
            if (!$fixedTime) {
                echo "error fix time";
                die;
@@ -45,14 +39,16 @@ foreach ($xlsx->rows() as $row => $value) {
 
 }
 function fixDateTime($dateTime, $hoursOrDate){
-    //echo $hoursOrDate;
+    //explode date because of yyy/mm/dd hh:mm:ss
+    //explode it to 2 seperate strings
     $explodedDate = explode(" ", $dateTime);
-    //print_r($explodedDate);
+    //check if date is datum of uren
     if ($hoursOrDate == "Datum") {
         return  $explodedDate[0];
     }else{
         return $explodedDate[1];
     }
+    //als het niet is gelukt return false en faal de conversie
     return FALSE;
 }
 
