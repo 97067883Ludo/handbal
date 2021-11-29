@@ -6,7 +6,7 @@ $file = 'wedstrijden.xlsx';
 $xlsx = new SimpleXLSX($file);
 
 foreach ($xlsx->rows() as $row => $value) {
-
+    //get header
     if ($row == 0) {
         $header = $value;
         $headerSize = count($header);
@@ -14,6 +14,7 @@ foreach ($xlsx->rows() as $row => $value) {
     }
     
     echo"Wedstrijd: <br />";
+    
     for ($i=0; $i < $headerSize; $i++) {
         echo $header[$i];
         //kijk of de het een datum of tijd is, dit moet gefixed worden
@@ -31,13 +32,13 @@ foreach ($xlsx->rows() as $row => $value) {
             echo $fixedTime;
             echo '<br />';
         }else{
-        echo ': ';
-        echo $value[$i];
-        echo '<br />';
+            echo ': ';
+            echo $value[$i];
+            echo '<br />';
         }
     }
-
 }
+
 function fixDateTime($dateTime, $hoursOrDate){
     //explode date because of yyy/mm/dd hh:mm:ss
     //explode it to 2 seperate strings
@@ -51,6 +52,5 @@ function fixDateTime($dateTime, $hoursOrDate){
     //als het niet is gelukt return false en faal de conversie
     return FALSE;
 }
-
 
 ?>
