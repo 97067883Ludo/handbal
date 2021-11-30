@@ -5,6 +5,9 @@ $file = 'wedstrijden.xlsx';
 
 $xlsx = new SimpleXLSX($file);
 
+//declareer error array voor als er fouten voorkomen bij het inladen van het xlsx bestand
+
+
 foreach ($xlsx->rows() as $row => $value) {
     //get header
     if ($row == 0) {
@@ -36,14 +39,20 @@ foreach ($xlsx->rows() as $row => $value) {
 
 
 function fixDateTime($dateTime, $hoursOrDate, $row){
+
+    global $errors;
+    $errors = array();
+
+    //probeer de $dateTime om te zetten naar een dateTime data type
     try {
         $fixedTime = new DateTime($dateTime);
     }
-
+    //als het gefaald is om het $dateTime om te zetten naar dateTime data type 
+    //gooi de $row in de $error variable
     catch (\Throwable $th) {
         $row = $row +1;
-        return " fout op regel $row";
-        //throw new Exception("error op regel $row in het excel bestand");
+        array_push($errors, $row, $th);
+        return " fout op regel $row $th";
     }
     
     //echo $hoursOrDate;
@@ -58,11 +67,13 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
             return $fixedTime->format("Y-m-d");
             break;
         case 'Tijd':
-            return $fixedTime->format('H:i:s');
+            return $fixedTime->format("H:i:s");
             break;
         default:
             return;
             break;
     }
 }
+
+var_dump($errors);
 ?>
