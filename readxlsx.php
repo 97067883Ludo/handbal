@@ -21,14 +21,8 @@ foreach ($xlsx->rows() as $row => $value) {
         if ($header[$i] == "Datum" || $header[$i] == "Tijd") {
 
             //call fixDateTime function om datum en tijd te fixen
-           $fixedTime = fixDateTime($value[$i], $header[$i]);
+            $fixedTime = fixDateTime($value[$i], $header[$i], $row);
 
-           //als de date time fix is gefaald trow error en die
-           if (!$fixedTime) {
-               echo "error fix time";
-               die;
-           }
-            echo ': ';
             echo $fixedTime;
             echo '<br />';
         }else{
@@ -39,18 +33,33 @@ foreach ($xlsx->rows() as $row => $value) {
     }
 }
 
-function fixDateTime($dateTime, $hoursOrDate){
-    //explode date because of yyy/mm/dd hh:mm:ss
-    //explode it to 2 seperate strings
-    $explodedDate = explode(" ", $dateTime);
-    //check if date is datum of uren
-    if ($hoursOrDate == "Datum") {
-        return  $explodedDate[0];
-    }else{
-        return $explodedDate[1];
+function fixDateTime($dateTime, $hoursOrDate, $row){
+    try {
+        $fixedTime = new DateTime($dateTime);
     }
-    //als het niet is gelukt return false en faal de conversie
-    return FALSE;
-}
+    
+    catch (\Throwable $th) {
+        //throw $th;
+    }
+    
+    //echo $hoursOrDate;
+    /*if ($hoursOrDate == "Datum") {
+        return $fixedTime->format("Y-M-d");
+    }
+    elseif ($hoursOrDate == "Tijd") {
+        return $fixedTime->format('H:i:s');
+    }*/
+    switch ($hoursOrDate) {
+        case 'Datum':
+            return $fixedTime->format("Y-m-d");
+            break;
+        case 'Tijd':
+            return $fixedTime->format('H:i:s');
+            break;
+        default:
+            return;
+            break;
+    }
 
+}
 ?>
