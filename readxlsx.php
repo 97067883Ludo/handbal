@@ -33,15 +33,18 @@ foreach ($xlsx->rows() as $row => $value) {
     }
 }
 
+
+
 function fixDateTime($dateTime, $hoursOrDate, $row){
     try {
         $fixedTime = new DateTime($dateTime);
     }
     
     catch (\Throwable $th) {
-        //throw $th;
+        $row = $row +1;
+        return "fout";
+        //throw new Exception("error op regel $row in het excel bestand");
     }
-    throw new Exception("error op regel $row in het excel bestand");
     
     //echo $hoursOrDate;
     /*if ($hoursOrDate == "Datum") {
