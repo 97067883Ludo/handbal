@@ -22,7 +22,7 @@ foreach ($xlsx->rows() as $row => $value) {
 
             //call fixDateTime function om datum en tijd te fixen
             $fixedTime = fixDateTime($value[$i], $header[$i], $row);
-
+            echo': ';
             echo $fixedTime;
             echo '<br />';
         }else{
@@ -39,10 +39,10 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
     try {
         $fixedTime = new DateTime($dateTime);
     }
-    
+
     catch (\Throwable $th) {
         $row = $row +1;
-        return "fout";
+        return " fout op regel $row";
         //throw new Exception("error op regel $row in het excel bestand");
     }
     
