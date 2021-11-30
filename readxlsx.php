@@ -41,6 +41,7 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
     catch (\Throwable $th) {
         //throw $th;
     }
+    throw new Exception("error op regel $row in het excel bestand");
     
     //echo $hoursOrDate;
     /*if ($hoursOrDate == "Datum") {
@@ -60,6 +61,5 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
             return;
             break;
     }
-
 }
 ?>
