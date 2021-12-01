@@ -42,40 +42,31 @@ foreach ($xlsx->rows() as $row => $value) {
 
 function fixDateTime($dateTime, $hoursOrDate, $row, $errors){
 
-
-
-    //probeer de $dateTime om te zetten naar een dateTime data type
     try {
+        //probeer de $dateTime om te zetten naar een dateTime data type
         $fixedTime = new DateTime($dateTime);
     }
     //als het gefaald is om het $dateTime om te zetten naar dateTime data type 
     //gooi de $row in de $error variable
     catch (\Throwable $th) {
         $row = $row +1;
-        //array_push($errors, $row);
+        //push de regel fout in de errors array
         array_push($GLOBALS['errors'], $row);
         return " fout op regel $row";
     }
     
-    //echo $hoursOrDate;
-    /*if ($hoursOrDate == "Datum") {
-        return $fixedTime->format("Y-M-d");
-    }
-    elseif ($hoursOrDate == "Tijd") {
-        return $fixedTime->format('H:i:s');
-    }*/
     switch ($hoursOrDate) {
         case 'Datum':
             return $fixedTime->format("Y-m-d");
             break;
         case 'Tijd':
-            return $fixedTime->format("H:i:s");
+            return $fixedTime->format("H:i");
             break;
         default:
             return;
             break;
+
     }
 }
 
-var_dump($errors);
 ?>
