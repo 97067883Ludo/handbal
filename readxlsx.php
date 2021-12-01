@@ -7,6 +7,8 @@ $xlsx = new SimpleXLSX($file);
 
 //declareer error array voor als er fouten voorkomen bij het inladen van het xlsx bestand
 
+global $errors;
+$errors = array();
 
 foreach ($xlsx->rows() as $row => $value) {
     //get header
@@ -24,7 +26,7 @@ foreach ($xlsx->rows() as $row => $value) {
         if ($header[$i] == "Datum" || $header[$i] == "Tijd") {
 
             //call fixDateTime function om datum en tijd te fixen
-            $fixedTime = fixDateTime($value[$i], $header[$i], $row);
+            $fixedTime = fixDateTime($value[$i], $header[$i], $row, $errors);
             echo': ';
             echo $fixedTime;
             echo '<br />';
@@ -38,10 +40,9 @@ foreach ($xlsx->rows() as $row => $value) {
 
 
 
-function fixDateTime($dateTime, $hoursOrDate, $row){
+function fixDateTime($dateTime, $hoursOrDate, $row, $errors){
 
-    global $errors;
-    $errors = array();
+
 
     //probeer de $dateTime om te zetten naar een dateTime data type
     try {
@@ -51,8 +52,9 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
     //gooi de $row in de $error variable
     catch (\Throwable $th) {
         $row = $row +1;
-        array_push($errors, $row, $th);
-        return " fout op regel $row $th";
+        //array_push($errors, $row);
+        array_push($GLOBALS['errors'], $row);
+        return " fout op regel $row";
     }
     
     //echo $hoursOrDate;
