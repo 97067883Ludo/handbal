@@ -10,6 +10,8 @@ $xlsx = new SimpleXLSX($file);
 global $errors;
 $errors = array();
 
+$wedstrijden = array();
+$wedstrijd = array();
 
 foreach ($xlsx->rows() as $row => $value) {
     //get header
@@ -30,14 +32,25 @@ foreach ($xlsx->rows() as $row => $value) {
             /*echo': ';
             echo $fixedTime;
             echo '<br />';*/
+            $obj = array($header[$i] => $fixedTime);
+            $wedstrijd += $obj;
+            //var_dump($obj);
+            //echo"<br/>";
         }else{
             /*echo ': ';
             echo $value[$i];
             echo '<br />';*/
+            $obj = array($header[$i] => $value[$i]);
+            //var_dump($obj);
+            //echo"<br/>";
+            $wedstrijd += $obj;
+            
         }
     }
+    var_dump($wedstrijd);
+    echo"<br />";
+    
 }
-
 
 function fixDateTime($dateTime, $hoursOrDate, $row){
 
@@ -101,6 +114,8 @@ function writeHeader($header, $headerSize, $xlsx){
 }
 
 function walkThruxlsx($xlsx){
+
+
 }
 
 
