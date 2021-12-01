@@ -69,4 +69,5 @@ function fixDateTime($dateTime, $hoursOrDate, $row, $errors){
     }
 }
 
+var_dump($errors);
 ?>
