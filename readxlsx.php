@@ -15,6 +15,8 @@ $wedstrijd = array();
 foreach ($xlsx->rows() as $row => $value) {
     //get header
     if ($row == 0) {
+        global $headerSize;
+        global $header;
         $header = $value;
         $headerSize = count($header);
         continue;
@@ -45,6 +47,7 @@ foreach ($xlsx->rows() as $row => $value) {
         }
     }
     $rij[] = $kolom;
+    global $wedstrijd;
     $wedstrijd[] = $rij;
 }
 //var_dump($wedstrijd);
@@ -79,7 +82,7 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
     }
 }
 
-function writeHeader($header, $headerSize, $xlsx){
+function writeHeader($header, $headerSize){
     $errors = $GLOBALS['errors'];
     foreach ($errors as $key => $value) {
         echo '
@@ -95,7 +98,7 @@ function writeHeader($header, $headerSize, $xlsx){
         <th scope="col">#</th>
         ';
     for ($i=0; $i < $headerSize; $i++) { 
-        if ($header[$i] == 'Nummer' || $header[$i] == 'Accommodatie' || $header[$i] == 'Plaats' || $header[$i] == 'Opm PR') {
+        if ($header[$i] == 'Nummer' || $header[$i] == 'Accommodatie' || $header[$i] == 'Plaats' || $header[$i] == 'Opm PR' || $header[$i] ==  NULL) {
             
         }else{
             echo '
@@ -108,15 +111,34 @@ function writeHeader($header, $headerSize, $xlsx){
     </thead>
     <tbody>
     ';
-    walkThruxlsx($xlsx);
+    walkThruxlsx();
 }
 
-function walkThruxlsx($xlsx){
+function walkThruxlsx(){
+    $headerSize = $GLOBALS['headerSize'];
+    $header = $GLOBALS['header'];
+    $wedstrijd = $GLOBALS['wedstrijd'];
+    foreach ($wedstrijd as $key => $value) {
+        echo'<tr>';
+        echo'<td>'.$key.'</td>';
+        for ($i=0; $i < $headerSize; $i++) { 
+            
+            if ($header[$i] == 'Datum' || $header[$i] == 'Tijd' || $header[$i] == 'Thuisteam' 
+                || $header[$i] == 'Uitteam' || $header[$i] == 'Scheidsrechter-1' || $header[$i] == 'Scheidsrechter-2' 
+                || $header[$i] == 'Zaaldienst') {
+                echo '
+                <td>'.$value[$key][$header[$i]].'</td>
+                ';
+                
+            }
+        }
+        echo'</tr>';
+    }
+    echo'';
 }
 
 
 
-//var_dump($errors);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -135,7 +157,7 @@ function walkThruxlsx($xlsx){
     </div>
     <div class="container mt-5">
     <?php
-    writeHeader($header, $headerSize, $xlsx);
+    writeHeader($header, $headerSize);
     ?>
     </div>
 </body>

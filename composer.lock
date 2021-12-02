@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "mpdf/mpdf",
-            "version": "v8.0.14",
+            "version": "v8.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpdf/mpdf.git",
-                "reference": "ab362c8b11667813487be5d3da64b31c89d9d826"
+                "reference": "d8a5294a6cc2e814c4157aecc8d7ac25014b18ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/ab362c8b11667813487be5d3da64b31c89d9d826",
-                "reference": "ab362c8b11667813487be5d3da64b31c89d9d826",
+                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/d8a5294a6cc2e814c4157aecc8d7ac25014b18ed",
+                "reference": "d8a5294a6cc2e814c4157aecc8d7ac25014b18ed",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +68,13 @@
                 "php",
                 "utf-8"
             ],
-            "time": "2021-11-02T20:27:57+00:00"
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/mpdf",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-11-10T08:15:22+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -115,6 +121,12 @@
                 "duplicate",
                 "object",
                 "object graph"
+            ],
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-11-13T09:40:50+00:00"
         },
@@ -270,6 +282,12 @@
                 "fpdi",
                 "pdf"
             ],
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/setasign/fpdi",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2021-02-11T11:37:01+00:00"
         },
         {
@@ -315,10 +333,6 @@
                 "php",
                 "xls"
             ],
-            "support": {
-                "issues": "https://github.com/shuchkin/simplexls/issues",
-                "source": "https://github.com/shuchkin/simplexls/tree/0.9.14"
-            },
             "time": "2021-11-03T18:57:19+00:00"
         },
         {
@@ -366,10 +380,6 @@
                 "php",
                 "xlsx"
             ],
-            "support": {
-                "issues": "https://github.com/shuchkin/simplexlsx/issues",
-                "source": "https://github.com/shuchkin/simplexlsx/tree/0.8.29"
-            },
             "time": "2021-10-16T15:58:20+00:00"
         }
     ],
@@ -381,5 +391,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "1.1.0"
 }
