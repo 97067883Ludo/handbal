@@ -8,9 +8,12 @@ $xlsx = new SimpleXLSX($file);
 //declareer error array voor als er fouten voorkomen bij het inladen van het xlsx bestand
 
 global $errors;
+
 $errors = array();
 
 $wedstrijd = array();
+
+global $wedstrijd;
 
 foreach ($xlsx->rows() as $row => $value) {
     //get header
@@ -29,25 +32,15 @@ foreach ($xlsx->rows() as $row => $value) {
         if ($header[$i] == "Datum" || $header[$i] == "Tijd") {
             //call fixDateTime function om datum en tijd te fixen
             $fixedTime = fixDateTime($value[$i], $header[$i], $row, $errors);
-            //$regel = array($header[$i] => $fixedTime);
-            /*echo': ';
-            echo $fixedTime;
-            echo '<br />';*/
+
             $kolom[$header[$i]] = $fixedTime;
-            //var_dump($obj);
-            //echo"<br/>";
         }else{
-            /*echo ': ';
-            echo $value[$i];
-            echo '<br />';*/
+
             $kolom[$header[$i]] = $value[$i];
-            //var_dump($obj);
-            //echo"<br/>";
             
         }
     }
     $rij[] = $kolom;
-    global $wedstrijd;
     $wedstrijd[] = $rij;
 }
 //var_dump($wedstrijd);
@@ -157,7 +150,8 @@ function walkThruxlsx(){
         <h2>Hoofdpagina</h2>
     </div>
     <div class="container mt-5">
-    <form action="afvangen.php" method="post">
+    <form action="afvangenxlsx.php" method="post">
+    <input type="submit" class="btn btn-success button" value="Verder ->">
     <?php
     writeHeader($header, $headerSize);
     ?>
