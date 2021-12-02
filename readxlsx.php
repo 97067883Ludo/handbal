@@ -118,21 +118,22 @@ function walkThruxlsx(){
     $headerSize = $GLOBALS['headerSize'];
     $header = $GLOBALS['header'];
     $wedstrijd = $GLOBALS['wedstrijd'];
+    $i = 0;
     foreach ($wedstrijd as $key => $value) {
+
         echo'<tr>';
-        echo'<td>'.$key.'</td>';
+        echo'<th> <input type="checkbox" name="product[]" value="' . $i . '" id=""> </th>';
         for ($i=0; $i < $headerSize; $i++) { 
             
             if ($header[$i] == 'Datum' || $header[$i] == 'Tijd' || $header[$i] == 'Thuisteam' 
                 || $header[$i] == 'Uitteam' || $header[$i] == 'Scheidsrechter-1' || $header[$i] == 'Scheidsrechter-2' 
                 || $header[$i] == 'Zaaldienst') {
-                echo '
-                <td>'.$value[$key][$header[$i]].'</td>
-                ';
+                echo '<td>'.$value[$key][$header[$i]].'</td>';
                 
             }
         }
         echo'</tr>';
+        $i++;
     }
     echo'';
 }
@@ -156,9 +157,11 @@ function walkThruxlsx(){
         <h2>Hoofdpagina</h2>
     </div>
     <div class="container mt-5">
+    <form action="afvangen.php" method="post">
     <?php
     writeHeader($header, $headerSize);
     ?>
+    </form>
     </div>
 </body>
 </html>
