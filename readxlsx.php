@@ -104,7 +104,6 @@ function writeHeader($header, $headerSize){
     </thead>
     <tbody>
     ';
-    walkThruxlsx();
 }
 
 function walkThruxlsx(){
@@ -154,6 +153,7 @@ function walkThruxlsx(){
     <input type="submit" class="btn btn-success button" value="Verder ->">
     <?php
     writeHeader($header, $headerSize);
+    walkThruxlsx();
     ?>
     </form>
     </div>
