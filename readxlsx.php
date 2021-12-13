@@ -23,10 +23,7 @@ foreach ($xlsx->rows() as $row => $value) {
         $headerSize = count($header);
         continue;
     }
-    //echo"Wedstrijd: <br />";
     for ($i=0; $i < $headerSize; $i++) {
-        //array_push($wedstrijd, $regel);
-        //echo $header[$i];
         //kijk of de het een datum of tijd is, dit moet gefixed worden
         if ($header[$i] == "datum" || $header[$i] == "tijd") {
             //call fixDateTime function om datum en tijd te fixen
@@ -41,7 +38,6 @@ foreach ($xlsx->rows() as $row => $value) {
     $rij[] = $kolom;
     $wedstrijd[] = $rij;
 }
-//var_dump($wedstrijd);
 
 
 function fixDateTime($dateTime, $hoursOrDate, $row){
@@ -61,7 +57,7 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
     
     switch ($hoursOrDate) {
         case 'datum':
-            return $fixedTime->format("Y-m-d");
+            return $fixedTime->format("d-m-Y");
             break;
         case 'tijd':
             return $fixedTime->format("H:i");
@@ -105,29 +101,27 @@ function writeHeader($header, $headerSize){
 }
 
 function walkThruxlsx(){
+    $today = new dateTime('now');
     $headerSize = $GLOBALS['headerSize'];
     $header = $GLOBALS['header'];
     $wedstrijd = $GLOBALS['wedstrijd'];
-    $i = 0;
+    $ii = 0;
     foreach ($wedstrijd as $key => $value) {
 
         echo'<tr>';
-        echo'<th> <input type="checkbox" name="product[]" value="' . $i . '" id=""> </th>';
+        echo'<th> <input type="checkbox" name="product[]" value="' . $ii . '" id=""> </th>';
         for ($i=0; $i < $headerSize; $i++) { 
-            
             if ($header[$i] == 'datum' || $header[$i] == 'tijd' || $header[$i] == 'thuisteam' 
                 || $header[$i] == 'uitteam' || $header[$i] == 'scheidsrechter-1' || $header[$i] == 'scheidsrechter-2' 
-                || $header[$i] == 'zaaldienst') {
+                || $header[$i] == 'zaaldienst')
+            {
                 echo '<td>'.$value[$key][$header[$i]].'</td>';
-                
             }
         }
         echo'</tr>';
-        $i++;
+        $ii++;
     }
     echo'';
 }
-
-
 
 ?>
