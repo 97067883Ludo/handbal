@@ -5,6 +5,8 @@ $file = 'wedstrijden.xlsx';
 
 $xlsx = new SimpleXLSX($file);
 
+
+
 //declareer error array voor als er fouten voorkomen bij het inladen van het xlsx bestand
 global $errors;
 $errors = array();
@@ -70,8 +72,11 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
 }
 
 function writeHeader($header, $headerSize){
+
+    $headerHtml = '';
+
     $errors = $GLOBALS['errors'];
-    foreach ($errors as $key => $value) {
+    foreach ($errors as $value) {
         echo '
         <div class="alert alert-danger" role="alert">
             fout gedetecteerd op '.$value.'
@@ -84,15 +89,54 @@ function writeHeader($header, $headerSize){
         <tr>
         <th scope="col">#</th>
         ';
-    for ($i=0; $i < $headerSize; $i++) { 
-        if ($header[$i] == 'nummer' || $header[$i] == 'accommodatie' || $header[$i] == 'plaats' || $header[$i] == 'opm pr' || $header[$i] ==  NULL) {
-            
-        }else{
-            echo '
-            <th scope="col">'.$header[$i].'</th>
-            ';
+        for ($i=0; $i < $headerSize; $i++) { 
+            switch ($header[$i]) {
+                case 'datum':
+                    echo '
+                    <th scope="col">'.$header[$i].'</th>
+                    ';
+                    break;
+                case 'tijd':
+                    echo '
+                    <th scope="col">'.$header[$i].'</th>
+                    ';
+                    break;
+                case 'thuisteam':
+                    echo '
+                    <th scope="col">'.$header[$i].'</th>
+                    ';
+                    break;
+                case 'uitteam':
+                    echo '
+                    <th scope="col">'.$header[$i].'</th>
+                    ';
+                    break;
+                case 'scheidsrechter-1':
+                    echo '
+                    <th scope="col">'.$header[$i].'</th>
+                    ';
+                    break;
+                case 'scheidsrechter-2':
+                    echo '
+                    <th scope="col">'.$header[$i].'</th>
+                    ';
+                    break;
+                case 'zaaldienst':
+                    echo '
+                    <th scope="col">'.$header[$i].'</th>
+                    ';
+                    break;
+            }   
         }
-    }
+        /*for ($i=0; $i < $headerSize; $i++) { 
+            if ($header[$i] == 'nummer' || $header[$i] == 'accommodatie' || $header[$i] == 'plaats' || $header[$i] == 'opm pr' || $header[$i] ==  NULL) {
+                
+            }else{
+                echo '
+                <th scope="col">'.$header[$i].'</th>
+                ';
+            }
+        }*/
     echo'
         </tr>
     </thead>
