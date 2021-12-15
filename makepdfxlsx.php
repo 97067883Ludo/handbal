@@ -67,7 +67,7 @@ $mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4']);
 $mpdf->WriteHTML($data);
 
 //output the pdf file to the browser
-$mpdf->Output("/archive/test.pdf", \Mpdf\Output\Destination::FILE);
+$mpdf->Output("archive/test.pdf", \Mpdf\Output\Destination::FILE);
 $mpdf->Output();
 
 ?>
