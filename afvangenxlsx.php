@@ -1,23 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>Wedstrijd maker Handbal Haarle</h1>
+        <h2>Checkpagina</h2>
+    </div>
 <?php
-require "readxlsx.php";
+ require "readxlsx.php";
 
-if (!isset($_POST['product'])) {
+    if (!isset($_POST['product'])) {
     header("Location: /handbal/handbal/indexxlsx.php");
-}
-
-$product = $_POST['product'];
-$productSize = count($product);
-echo $productSize;
-
-$i =0;
-foreach ($rij as $key => $value) {
-    if ($product[$i] == $key) {
-        echo $value['datum']. "<br/>" . $value['thuisteam'] . "<br/>";
-        $i++;
     }
-    if ($productSize == $i) {
-        return;
-    }
-}
 
+    $product = $_POST['product'];
+    $productSize = count($product);
+    //echo $productSize;
+
+    $i =0;
+    foreach ($rij as $key => $value) {
+        if ($product[$i] == $key) {
+            echo '
+            '.$rij[$key]['datum'].'
+
+
+            ';
+            $i++;
+        }
+        if ($productSize == $i) {
+            return;
+        }
+    }
 ?>
+</body>
+</html>

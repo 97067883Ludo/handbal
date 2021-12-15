@@ -2,6 +2,6 @@
     "require": {
         "mpdf/mpdf": "^8.0",
         "shuchkin/simplexls": "^0.9.14",
-        "shuchkin/simplexlsx": "^0.8.29"
+        "shuchkin/simplexlsx": "^0.8.31"
     }
 }
