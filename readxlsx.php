@@ -13,7 +13,7 @@ $errors = array();
 
 //wedstrijd array deze array wordt gevuld met alle wedstrijden
 $wedstrijd = array();
-global $wedstrijd;
+global $rij;
 
 foreach ($xlsx->rows() as $row => $value) {
     //get header
@@ -145,12 +145,31 @@ function writeHeader($header, $headerSize){
 }
 
 function walkThruxlsx(){
-    $today = new dateTime('now');
     $headerSize = $GLOBALS['headerSize'];
     $header = $GLOBALS['header'];
-    $wedstrijd = $GLOBALS['wedstrijd'];
+    $wedstrijd = $GLOBALS['rij'];
     $ii = 0;
     foreach ($wedstrijd as $key => $value) {
+        echo '<tr>
+        <th> <input type="checkbox" name="product[]" value="' . $ii . '" id=""> </th>
+        <td> '.$value['datum'].'</td>
+        <td>'.$value['tijd'].'</td>
+        <td>'.$value['thuisteam'].'</td>
+        <td>'.$value['uitteam'].'</td>
+        <td>'.$value['scheidsrechter-1'].'</td>
+        <td>'.$value['scheidsrechter-2'].'</td>
+        <td>'.$value['zaaldienst'].'</td>
+        </tr>
+        ';
+        $ii++;
+    }
+    echo "
+    </tbody>
+    </table>
+    ";
+
+
+    /*foreach ($wedstrijd as $key => $value) {
 
         echo'<tr>';
         echo'<th> <input type="checkbox" name="product[]" value="' . $ii . '" id=""> </th>';
@@ -165,8 +184,7 @@ function walkThruxlsx(){
         }
         echo'</tr>';
         $ii++;
-    }
-    echo'';
+    }*/
 }
 
 ?>
