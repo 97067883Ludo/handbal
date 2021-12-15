@@ -16,25 +16,34 @@
         <h2>Check pagina</h2>
     </div>
     <?php
-    require 'printMenu.php';
-    require "readxlsx.php";
-    printMenu();
+        //Require and load printmenu.php and readxlsx.php.
+        require 'printMenu.php';
+        require "readxlsx.php";
+        //Call printmenu function to print the menu.
+        printMenu();
     ?>
     <div class="container mt-5">
-        <?php
-
+    <?php
+        //als er geen post is geset wijs dan weer terug naar indexxlsx.php
         if (!isset($_POST['product'])) {
             header("Location: /handbal/handbal/indexxlsx.php");
         }
+        else{
+            //Als er wel een post is gestuurd haal de post op.
+            $product = $_POST['product'];
+            //Tel hoeveel elementen er in de variabel product zitten.
+            $productSize = count($product);
+        }
 
-        $product = $_POST['product'];
-        $productSize = count($product);
-
+        //Print header van de tabel.
         writeHeader($header, $headerSize);
-
+        //Defineer een 2 tellers.
         $i = 0;
+        //Defineer de teller die op het scherm wordt weergegeven.
         $teller = 1;
+        //Loop door het xlsx van file readxslx.php.
         foreach ($rij as $key => $value) {
+            //Als er een match is tussen de key en het product element print de regel.
             if ($product[$i] == $key) {
                 echo '
                 <tr>
@@ -51,14 +60,16 @@
                 $teller++;
                 $i++;
             }
+            //Als er geen elementen meer in product zijn break uit de foreach loop.
             if ($productSize == $i) {
                 break;
             }
         }
+        //Print een onzichtbare form die de items door post naar makepdfxlsx.php
         echo'
         </tbody>
         </table>
-        <form action="makepdf.php" method="post">
+        <form action="makepdfxlsx.php" method="post">
         ';
         foreach ($product as $key => $value) {
             echo'
@@ -66,7 +77,7 @@
             ';
         }
 
-        ?>
+    ?>
         <input type="submit" class="btn btn-success" value="maak pdf">
     </div>
 </body>
