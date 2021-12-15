@@ -10,7 +10,7 @@ $archiveName = 'archive/';
 
 $today = new DateTime('now');
 
-$todayString = $today->format('d-m-Y_H.i.s');
+$todayString = $today->format('d-m-Y_H,i,s_');
 
 $archiveName .= $todayString;
 
