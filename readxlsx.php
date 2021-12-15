@@ -56,7 +56,7 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
         array_push($GLOBALS['errors'], $row);
         return " fout op regel $row";
     }
-    
+    //Kijk of het uren of een datum is geef vervolgens de juiste informatie terug
     switch ($hoursOrDate) {
         case 'datum':
             return $fixedTime->format("d-m-Y");
@@ -71,6 +71,8 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
     }
 }
 
+
+//Deze functie schrijft de header op het beeldscherm met de juist stijl
 function writeHeader($header, $headerSize){
 
     $headerHtml = '';
@@ -134,7 +136,7 @@ function writeHeader($header, $headerSize){
     <tbody>
     ';
 }
-
+//Deze fucntie loopt door de array die boven aan gemaakt is.
 function walkThruxlsx(){
     $headerSize = $GLOBALS['headerSize'];
     $header = $GLOBALS['header'];
