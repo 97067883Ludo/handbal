@@ -7,16 +7,16 @@ $xlsx = new SimpleXLSX($file);
 
 
 
-//declareer error array voor als er fouten voorkomen bij het inladen van het xlsx bestand
+//Declareer error array voor als er fouten voorkomen bij het inladen van het xlsx bestand.
 global $errors;
 $errors = array();
 
-//wedstrijd array deze array wordt gevuld met alle wedstrijden
+//Wedstrijd array deze array wordt gevuld met alle wedstrijden.
 $wedstrijd = array();
 global $rij;
 
 foreach ($xlsx->rows() as $row => $value) {
-    //get header
+    //Get header en continue naar het volgende element in de array.
     if ($row == 0) {
         global $headerSize;
         global $header;
@@ -128,15 +128,6 @@ function writeHeader($header, $headerSize){
                     break;
             }   
         }
-        /*for ($i=0; $i < $headerSize; $i++) { 
-            if ($header[$i] == 'nummer' || $header[$i] == 'accommodatie' || $header[$i] == 'plaats' || $header[$i] == 'opm pr' || $header[$i] ==  NULL) {
-                
-            }else{
-                echo '
-                <th scope="col">'.$header[$i].'</th>
-                ';
-            }
-        }*/
     echo'
         </tr>
     </thead>
@@ -167,24 +158,6 @@ function walkThruxlsx(){
     </tbody>
     </table>
     ";
-
-
-    /*foreach ($wedstrijd as $key => $value) {
-
-        echo'<tr>';
-        echo'<th> <input type="checkbox" name="product[]" value="' . $ii . '" id=""> </th>';
-        for ($i=0; $i < $headerSize; $i++) {
-            //pak alle informatie die we willen en echo ze
-            if ($header[$i] == 'datum' || $header[$i] == 'tijd' || $header[$i] == 'thuisteam' 
-                || $header[$i] == 'uitteam' || $header[$i] == 'scheidsrechter-1' || $header[$i] == 'scheidsrechter-2' 
-                || $header[$i] == 'zaaldienst')
-            {
-                echo '<td>'.$value[$key][$header[$i]].'</td>';
-            }
-        }
-        echo'</tr>';
-        $ii++;
-    }*/
 }
 
 ?>
