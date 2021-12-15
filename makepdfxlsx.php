@@ -3,14 +3,19 @@
 
 //if nothing is posted send user back to index.php
 if (!isset($_POST['product'])) {
-    header('Location: indexxlsx.php');
+    header('Location: index.php');
 }
+
+$archiveName = 'archive/';
 
 $today = new DateTime('now');
 
-$archiveName = $today->format('d-m-Y_H:i');
+$todayString = $today->format('d-m-Y_H.i.s');
 
-echo $archiveName;
+$archiveName .= $todayString;
+
+$archiveName .= '.pdf';
+
 
 $product = $_POST['product'];
 $productSize = count($product);
@@ -73,7 +78,7 @@ $mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4']);
 $mpdf->WriteHTML($data);
 
 //output the pdf file to the browser
-$mpdf->Output('archive/'.$archiveName.'sdf.pdf', \Mpdf\Output\Destination::FILE);
+$mpdf->Output($archiveName, 'F');
 $mpdf->Output();
 
 ?>

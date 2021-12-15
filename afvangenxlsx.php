@@ -16,6 +16,16 @@
         <h2>Check pagina</h2>
     </div>
     <?php
+            //als er geen post is geset wijs dan weer terug naar index.php
+            if (!isset($_POST['product'])) {
+                header("Location: index.php");
+            }
+            else{
+                //Als er wel een post is gestuurd haal de post op.
+                $product = $_POST['product'];
+                //Tel hoeveel elementen er in de variabel product zitten.
+                $productSize = count($product);
+            }
         //Require and load printmenu.php and readxlsx.php.
         require 'printMenu.php';
         require "readxlsx.php";
@@ -24,16 +34,6 @@
     ?>
     <div class="container mt-5">
     <?php
-        //als er geen post is geset wijs dan weer terug naar indexxlsx.php
-        if (!isset($_POST['product'])) {
-            header("Location: /handbal/handbal/indexxlsx.php");
-        }
-        else{
-            //Als er wel een post is gestuurd haal de post op.
-            $product = $_POST['product'];
-            //Tel hoeveel elementen er in de variabel product zitten.
-            $productSize = count($product);
-        }
 
         //Print header van de tabel.
         writeHeader($header, $headerSize);
