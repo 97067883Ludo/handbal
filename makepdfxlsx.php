@@ -32,15 +32,42 @@ $data .= '
         <th style="border: 1px solid black; background-color:grey;">Scheidsr.:</th>
         <th style="border: 1px solid black; background-color:grey;">Tafeldienst</th>
     </tr>';
-echo$data;
 
 $ii =0;
 $i =0;
 foreach ($rij as $key => $value) {
     if ($product[$i] == $key) {
-        
+        $data .= '
+        <tr>
+            <td style="border: 1px solid black;">'.$rij[$key]['datum'].'</td>
+            <td style="border: 1px solid black;">'.$rij[$key]['tijd'].'</td>
+            <td style="border: 1px solid black;">'.$rij[$key]['thuisteam'].'</td>
+            <td style="border: 1px solid black;">'.$rij[$key]['uitteam'].'</td>
+            <td style="border: 1px solid black;" rowspan="2">'.$rij[$key]['scheidsrechter-1'].' '.$rij[$key]['scheidsrechter-2'].'</td>
+            <td style="border: 1px solid black;" rowspan="2">'.$rij[$key]['zaaldienst'].'</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;"> </td>
+            <td style="border: 1px solid black;" colspan="3"> -</td>
+        </tr>
+        ';
+        $i++;
+
+    }
+    if ($productSize == $i) {
+        break;
     }
 }
+$data .= '</table>';
 
+//making a new class mpdf
+$mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4']);
+
+//write data to the pdf file
+$mpdf->WriteHTML($data);
+
+//output the pdf file to the browser
+$mpdf->Output("/archive/test.pdf", \Mpdf\Output\Destination::FILE);
+$mpdf->Output();
 
 ?>
