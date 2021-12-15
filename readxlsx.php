@@ -7,16 +7,16 @@ $xlsx = new SimpleXLSX($file);
 
 
 
-//declareer error array voor als er fouten voorkomen bij het inladen van het xlsx bestand
+//Declareer error array voor als er fouten voorkomen bij het inladen van het xlsx bestand.
 global $errors;
 $errors = array();
 
-//wedstrijd array deze array wordt gevuld met alle wedstrijden
+//Wedstrijd array deze array wordt gevuld met alle wedstrijden.
 $wedstrijd = array();
-global $wedstrijd;
+global $rij;
 
 foreach ($xlsx->rows() as $row => $value) {
-    //get header
+    //Get header en continue naar het volgende element in de array.
     if ($row == 0) {
         global $headerSize;
         global $header;
@@ -34,7 +34,7 @@ foreach ($xlsx->rows() as $row => $value) {
             $kolom[$header[$i]] = $fixedTime;
         }else{
             $kolom[$header[$i]] = $value[$i];
-
+            
         }
     }
     $rij[] = $kolom;
@@ -56,7 +56,7 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
         array_push($GLOBALS['errors'], $row);
         return " fout op regel $row";
     }
-    
+    //Kijk of het uren of een datum is geef vervolgens de juiste informatie terug
     switch ($hoursOrDate) {
         case 'datum':
             return $fixedTime->format("d-m-Y");
@@ -71,6 +71,8 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
     }
 }
 
+
+//Deze functie schrijft de header op het beeldscherm met de juist stijl
 function writeHeader($header, $headerSize){
 
     $headerHtml = '';
@@ -128,44 +130,36 @@ function writeHeader($header, $headerSize){
                     break;
             }   
         }
-        /*for ($i=0; $i < $headerSize; $i++) { 
-            if ($header[$i] == 'nummer' || $header[$i] == 'accommodatie' || $header[$i] == 'plaats' || $header[$i] == 'opm pr' || $header[$i] ==  NULL) {
-                
-            }else{
-                echo '
-                <th scope="col">'.$header[$i].'</th>
-                ';
-            }
-        }*/
     echo'
         </tr>
     </thead>
     <tbody>
     ';
 }
-
+//Deze fucntie loopt door de array die boven aan gemaakt is.
 function walkThruxlsx(){
-    $today = new dateTime('now');
     $headerSize = $GLOBALS['headerSize'];
     $header = $GLOBALS['header'];
-    $wedstrijd = $GLOBALS['wedstrijd'];
+    $wedstrijd = $GLOBALS['rij'];
     $ii = 0;
     foreach ($wedstrijd as $key => $value) {
-
-        echo'<tr>';
-        echo'<th> <input type="checkbox" name="product[]" value="' . $ii . '" id=""> </th>';
-        for ($i=0; $i < $headerSize; $i++) { 
-            if ($header[$i] == 'datum' || $header[$i] == 'tijd' || $header[$i] == 'thuisteam' 
-                || $header[$i] == 'uitteam' || $header[$i] == 'scheidsrechter-1' || $header[$i] == 'scheidsrechter-2' 
-                || $header[$i] == 'zaaldienst')
-            {
-                echo '<td>'.$value[$key][$header[$i]].'</td>';
-            }
-        }
-        echo'</tr>';
+        echo '<tr>
+        <th> <input type="checkbox" name="product[]" value="' . $ii . '" id=""> </th>
+        <td> '.$value['datum'].'</td>
+        <td>'.$value['tijd'].'</td>
+        <td>'.$value['thuisteam'].'</td>
+        <td>'.$value['uitteam'].'</td>
+        <td>'.$value['scheidsrechter-1'].'</td>
+        <td>'.$value['scheidsrechter-2'].'</td>
+        <td>'.$value['zaaldienst'].'</td>
+        </tr>
+        ';
         $ii++;
     }
-    echo'';
+    echo "
+    </tbody>
+    </table>
+    ";
 }
 
 ?>
