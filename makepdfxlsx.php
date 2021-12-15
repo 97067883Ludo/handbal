@@ -6,6 +6,12 @@ if (!isset($_POST['product'])) {
     header('Location: indexxlsx.php');
 }
 
+$today = new DateTime('now');
+
+$archiveName = $today->format('d-m-Y_H:i');
+
+echo $archiveName;
+
 $product = $_POST['product'];
 $productSize = count($product);
 
@@ -23,7 +29,7 @@ $data = '';
 $data .= '
     <table style="border: 1px solid black; border-collapse: collapse; font-family:arial;">
     <tr>
-        <td colspan="5"> <img src="logo.svg" alt="logo" width="374px"><br /> <div style="color:blue; text-decoration: underline;">www.handbalhaarle.nl</div></td>
+        <td colspan="5"> <img src="img/logo.svg" alt="logo" width="374px"><br /> <div style="color:blue; text-decoration: underline;">www.handbalhaarle.nl</div></td>
     </tr>
     <tr>
         <th style="border: 1px solid black; background-color:grey;">Datum</th>
@@ -67,7 +73,7 @@ $mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4']);
 $mpdf->WriteHTML($data);
 
 //output the pdf file to the browser
-$mpdf->Output("archive/test.pdf", \Mpdf\Output\Destination::FILE);
+$mpdf->Output('archive/'.$archiveName.'sdf.pdf', \Mpdf\Output\Destination::FILE);
 $mpdf->Output();
 
 ?>
