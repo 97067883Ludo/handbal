@@ -15,9 +15,13 @@
         <h1>Wedstrijd maker Handbal Haarle</h1>
         <h2>Check pagina</h2>
     </div>
-    <div class="container mt-5">
     <?php
-        require "readxlsx.php";
+    require 'printMenu.php';
+    require "readxlsx.php";
+    printMenu();
+    ?>
+    <div class="container mt-5">
+        <?php
 
         if (!isset($_POST['product'])) {
             header("Location: /handbal/handbal/indexxlsx.php");
@@ -34,28 +38,36 @@
             if ($product[$i] == $key) {
                 echo '
                 <tr>
-                <td>'.$teller.'</td>
-                <td> '.$value['datum'].'</td>
-                <td>'.$value['tijd'].'</td>
-                <td>'.$value['thuisteam'].'</td>
-                <td>'.$value['uitteam'].'</td>
-                <td>'.$value['scheidsrechter-1'].'</td>
-                <td>'.$value['scheidsrechter-2'].'</td>
-                <td>'.$value['zaaldienst'].'</td>
+                <td>' . $teller . '</td>
+                <td> ' . $value['datum'] . '</td>
+                <td>' . $value['tijd'] . '</td>
+                <td>' . $value['thuisteam'] . '</td>
+                <td>' . $value['uitteam'] . '</td>
+                <td>' . $value['scheidsrechter-1'] . '</td>
+                <td>' . $value['scheidsrechter-2'] . '</td>
+                <td>' . $value['zaaldienst'] . '</td>
                 </tr>
                 ';
-            $teller ++;
-            $i++;
+                $teller++;
+                $i++;
             }
             if ($productSize == $i) {
-                return;
+                break;
             }
         }
+        echo'
+        </tbody>
+        </table>
+        <form action="makepdf.php" method="post">
+        ';
+        foreach ($product as $key => $value) {
+            echo'
+            <input type="hidden" name="product[]" value="'.$value.'">
+            ';
+        }
 
-    ?>
-    </tbody>
-    </table>
+        ?>
+        <input type="submit" class="btn btn-success" value="maak pdf">
     </div>
 </body>
-
 </html>
