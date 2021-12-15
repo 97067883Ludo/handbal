@@ -32,7 +32,7 @@ foreach ($xlsx->rows() as $row => $value) {
             $kolom[$header[$i]] = $fixedTime;
         }else{
             $kolom[$header[$i]] = $value[$i];
-
+            
         }
     }
     $rij[] = $kolom;
@@ -110,7 +110,8 @@ function walkThruxlsx(){
 
         echo'<tr>';
         echo'<th> <input type="checkbox" name="product[]" value="' . $ii . '" id=""> </th>';
-        for ($i=0; $i < $headerSize; $i++) { 
+        for ($i=0; $i < $headerSize; $i++) {
+            //pak alle informatie die we willen en echo ze
             if ($header[$i] == 'datum' || $header[$i] == 'tijd' || $header[$i] == 'thuisteam' 
                 || $header[$i] == 'uitteam' || $header[$i] == 'scheidsrechter-1' || $header[$i] == 'scheidsrechter-2' 
                 || $header[$i] == 'zaaldienst')
