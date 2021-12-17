@@ -32,6 +32,7 @@
             </thead>
             <tbody>
             ';
+            $files = array();
             if ($dh = opendir($fileDir)) {
                 while (($file = readdir($dh)) !== false) {
                     if ($file == '.' || $file == '..') {
@@ -43,7 +44,7 @@
                     <tr>
                     <td>'.$fileNameArray[0].'</td>
                     <td>'.$fileNameArray[1].'</td>
-                    <td><button class="btn btn-primary">Download</button></td>
+                    <td><a class="btn btn-primary" href="archive/'.$file.'" download="'.$file.'">Download</a></td>
                     <td><button class="btn btn-danger">Verwijderen</button></td>
                     </tr>
                     ';
