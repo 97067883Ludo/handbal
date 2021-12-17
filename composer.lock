@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "186133f53fcde756069b296968ee198c",
+    "content-hash": "fd5d003bd6396b1ee4c397f750dff558",
     "packages": [
         {
             "name": "mpdf/mpdf",
@@ -337,16 +337,16 @@
         },
         {
             "name": "shuchkin/simplexlsx",
-            "version": "0.8.29",
+            "version": "0.8.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shuchkin/simplexlsx.git",
-                "reference": "3be5dfeb7db1ac57b8e21ccca9a50c16b8692979"
+                "reference": "01368371cb5cadf3b986d4c7080c7fdfd0b6f295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shuchkin/simplexlsx/zipball/3be5dfeb7db1ac57b8e21ccca9a50c16b8692979",
-                "reference": "3be5dfeb7db1ac57b8e21ccca9a50c16b8692979",
+                "url": "https://api.github.com/repos/shuchkin/simplexlsx/zipball/01368371cb5cadf3b986d4c7080c7fdfd0b6f295",
+                "reference": "01368371cb5cadf3b986d4c7080c7fdfd0b6f295",
                 "shasum": ""
             },
             "require": {
@@ -380,7 +380,11 @@
                 "php",
                 "xlsx"
             ],
-            "time": "2021-10-16T15:58:20+00:00"
+            "support": {
+                "issues": "https://github.com/shuchkin/simplexlsx/issues",
+                "source": "https://github.com/shuchkin/simplexlsx/tree/0.8.31"
+            },
+            "time": "2021-12-01T11:52:24+00:00"
         }
     ],
     "packages-dev": [],
@@ -391,5 +395,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.1.0"
 }
