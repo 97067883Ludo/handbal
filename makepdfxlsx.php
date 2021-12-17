@@ -47,6 +47,7 @@ $ii =0;
 $i =0;
 foreach ($rij as $key => $value) {
     if ($product[$i] == $key) {
+        
         $data .= '
         <tr>
             <td style="border: 1px solid black;">'.$rij[$key]['datum'].'</td>

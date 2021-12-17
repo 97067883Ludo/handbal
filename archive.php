@@ -40,12 +40,18 @@
                     }
 
                     $fileNameArray = explode('_', $file);
+                    
                     echo'
                     <tr>
                     <td>'.$fileNameArray[0].'</td>
                     <td>'.$fileNameArray[1].'</td>
                     <td><a class="btn btn-primary" href="archive/'.$file.'" download="'.$file.'">Download</a></td>
-                    <td><button class="btn btn-danger">Verwijderen</button></td>
+                    <td>
+                    <form action="delete.php" method="post">
+                        <input type="hidden" value="'.$file.'" name="file">
+                        <button class="btn btn-danger" type="submit">Verwijderen</button>
+                    </form>
+                    </td>
                     </tr>
                     ';
                 }
