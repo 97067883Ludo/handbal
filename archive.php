@@ -40,11 +40,21 @@
                     }
 
                     $fileNameArray = explode('_', $file);
-                    
+
+                    $timeComma = $fileNameArray[1];
+
+                    $timeComma = explode(",",$timeComma);
+                    $tijd = '';
+                    foreach ($timeComma as $key => $value) {
+                        $tijd .= $timeComma[$key];
+                        if ( $key != 2) {
+                            $tijd .= ':';
+                        }
+                    }
                     echo'
                     <tr>
                     <td>'.$fileNameArray[0].'</td>
-                    <td>'.$fileNameArray[1].'</td>
+                    <td>'.$tijd.'</td>
                     <td><a class="btn btn-primary" href="archive/'.$file.'" download="'.$file.'">Download</a></td>
                     <td>
                     <form action="delete.php" method="post">
