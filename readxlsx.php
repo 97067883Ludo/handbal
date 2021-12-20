@@ -1,7 +1,7 @@
 <?php
 require 'vendor/shuchkin/simplexlsx/src/SimpleXLSX.php';
 
-$file = 'wedstrijden.xlsx';
+$file = 'upload/wedstrijden.xlsx';
 
 $xlsx = new SimpleXLSX($file);
 

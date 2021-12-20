@@ -6,7 +6,7 @@ echo '
     <li class="nav-item">
       <a class="btn btn-primary" href="index.php">Lijst</a>
     </li>
-    <li class="nav-item button">
+    <li class="nav-item navbutton">
       <a class="btn btn-primary" href="archive.php">Archief</a>
     </li>
     <li class="nav-item">
@@ -27,7 +27,7 @@ echo '
               <form action="upload.php" method="post" enctype="multipart/form-data">
                 
                 <input type="file" name="fileToUpload" id="fileToUpload">
-                <input type="submit" value="Upload Image" name="submit">
+                <input type="submit" value="Bestand uploaden..." name="fileUpload">
               </form>
             </div>
           </div>
