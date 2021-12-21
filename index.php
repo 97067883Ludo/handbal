@@ -24,7 +24,12 @@ require "readxlsx.php";
         ?>
     <div class="container mt-5">
         <?php
-            
+            if (isset($_GET['Upload'])) {
+                include 'messageResover.php';
+                $msg = $_GET['MSG'];
+                $upload = $_GET['Upload'];
+                echo uploadResover($upload, $msg);
+            }
         ?>
     <form action="afvangenxlsx.php" method="post">
     <input type="submit" class="btn btn-success button" value="Verder ->">
