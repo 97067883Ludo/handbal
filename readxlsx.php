@@ -3,6 +3,11 @@ require 'vendor/shuchkin/simplexlsx/src/SimpleXLSX.php';
 
 $file = 'upload/wedstrijden.xlsx';
 
+if (!file_exists($file)) {
+    echo'bestand niet gevonden';
+    die;
+}
+
 $xlsx = new SimpleXLSX($file);
 
 

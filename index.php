@@ -18,17 +18,20 @@ require "readxlsx.php";
         <h1>Wedstrijd maker Handbal Haarle</h1>
         <h2>Hoofdpagina</h2>
     </div>
-    <?php
-        require 'printMenu.php';
-        printMenu();
-    ?>
+        <?php
+            require 'printMenu.php';
+            printMenu();
+        ?>
     <div class="container mt-5">
+        <?php
+            
+        ?>
     <form action="afvangenxlsx.php" method="post">
     <input type="submit" class="btn btn-success button" value="Verder ->">
-    <?php
-    writeHeader($header, $headerSize);
-    walkThruxlsx();
-    ?>
+        <?php
+            writeHeader($header, $headerSize);
+            walkThruxlsx();
+        ?>
     </form>
     </div>
 </body>
