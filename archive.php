@@ -27,6 +27,7 @@
             <tr>
             <th>Aanmaakdatum</th>
             <th>Aanmaaktijd</th>
+            <th>Bekijken</th>
             <th>downloaden</th>
             <th>Verwijderen</th>
             </tr>
@@ -57,6 +58,7 @@
                     <tr>
                     <td>'.$fileNameArray[0].'</td>
                     <td>'.$tijd.'</td>
+                    <td><a class="btn btn-primary" href="archive/'.$file.'">Bekijk</a></td>
                     <td><a class="btn btn-primary" href="archive/'.$file.'" download="'.$file.'">Download</a></td>
                     <td>
                     <form action="delete.php" method="post">

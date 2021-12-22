@@ -6,6 +6,7 @@ if (!isset($_POST['product'])) {
     header('Location: index.php');
 }
 
+
 $archiveName = 'archive/';
 
 $today = new DateTime('now');
@@ -21,6 +22,11 @@ $productSize = count($product);
 
 require_once __DIR__ . '/vendor/autoload.php';
 require 'readxlsx.php';
+
+//making a new class mpdf
+$mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4']);
+
+$mpdf->SetTitle(''. $rij[1]['datum'] .' Handbal overzicht');
 
 //set variable naar 1 als 'haarle' is gedetecteerd
 $haarleT = 0;
@@ -45,6 +51,7 @@ $data .= '
 
 $ii =0;
 $i =0;
+
 foreach ($rij as $key => $value) {
     if ($product[$i] == $key) {
         
@@ -70,9 +77,6 @@ foreach ($rij as $key => $value) {
     }
 }
 $data .= '</table>';
-
-//making a new class mpdf
-$mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4']);
 
 //write data to the pdf file
 $mpdf->WriteHTML($data);
