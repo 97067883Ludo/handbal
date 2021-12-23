@@ -26,7 +26,7 @@
             <thead>
             <tr>
             <th>Aanmaakdatum</th>
-            <th>Aanmaaktijd</th>
+            <th>Aanmaakmomnet</th>
             <th>Bekijken</th>
             <th>downloaden</th>
             <th>Verwijderen</th>
@@ -34,40 +34,23 @@
             </thead>
             <tbody>
             ';
+            $fileArray = array();
             $files = array();
             if ($dh = opendir($fileDir)) {
                 while (($file = readdir($dh)) !== false) {
                     if ($file == '.' || $file == '..') {
                         continue;
                     }
-                    
                     $fileNameArray = explode('_', $file);
-
-                    $timeComma = $fileNameArray[1];
-
-                    $timeComma = explode(",",$timeComma);
-                    $tijd = '';
-                    $archivedFiles = array();
-                    foreach ($timeComma as $key => $value) {
-                        $tijd .= $timeComma[$key];
-                        if ( $key != 2) {
-                            $tijd .= ':';
-                        }
-                    }
-                    echo'
-                    <tr>
-                    <td>'.$fileNameArray[0].'</td>
-                    <td>'.$tijd.'</td>
-                    <td><a class="btn btn-primary" href="archive/'.$file.'">Bekijk</a></td>
-                    <td><a class="btn btn-primary" href="archive/'.$file.'" download="'.$file.'">Download</a></td>
-                    <td>
-                    <form action="delete.php" method="post">
-                        <input type="hidden" value="'.$file.'" name="file">
-                        <button class="btn btn-danger" type="submit">Verwijderen</button>
-                    </form>
-                    </td>
-                    </tr>
-                    ';
+                    $datum = date("Y-m-d", strtotime($fileNameArray[0]));
+                    $tijd = date('H:i:s', strtotime($fileNameArray[1]));
+                    $unixTimeStamp = $datum . $tijd;
+                    $unixTimeStamp = strtotime($unixTimeStamp);
+                    $fileArray['fileName'] = $file;
+                    $fileArray['timeStamp'] = $unixTimeStamp;
+                    $fileArray['date'] = $datum;
+                    $fileArray['time'] = $tijd;
+                    $files[] = $fileArray;
                 }
             }else {
                 echo 'er is iets fout gegaan met het openen van de map heb ik de juiste rechten?';
@@ -75,8 +58,30 @@
         }else {
             echo 'map niet gevonden';
         }
+        function date_compare($element1, $element2) {
+            $datetime1 = $element1['timeStamp'];
+            $datetime2 = $element2['timeStamp'];
+            return $datetime2 - $datetime1;
+        } 
+        usort($files, 'date_compare');
+        $sizeFiles = count($files);
+        foreach ($files as $key => $value) {
 
-
+            echo'
+            <tr>
+            <td>'.$files[$key]['date'].'</td>
+            <td>'.$files[$key]['time'].'</td>
+            <td><a class="btn btn-primary" href="archive/'.$files[$key]['fileName'].'">Bekijk</a></td>
+            <td><a class="btn btn-primary" href="archive/'.$files[$key]['fileName'].'" download="'.$files[$key]['fileName'].'">Download</a></td>
+            <td>
+            <form action="delete.php" method="post">
+                <input type="hidden" value="'.$files[$key]['fileName'].'" name="file">
+                <button class="btn btn-danger" type="submit">Verwijderen</button>
+            </form>
+            </td>
+            </tr>
+            ';
+        }
     ?>
 </body>
 </html>
