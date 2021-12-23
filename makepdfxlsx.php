@@ -1,17 +1,15 @@
 <?php
 
-
 //if nothing is posted send user back to index.php
 if (!isset($_POST['product'])) {
     header('Location: index.php');
 }
 
-
 $archiveName = 'archive/';
 
 $today = new DateTime('now');
 
-$todayString = $today->format('d-m-Y_H,i,s_');
+$todayString = $today->format('d-m-Y_H.i.s_');
 
 $archiveName .= $todayString;
 
@@ -27,6 +25,9 @@ require 'readxlsx.php';
 $mpdf = new \Mpdf\Mpdf(['mode' => 'utf-8', 'format' => 'A4']);
 
 $mpdf->SetTitle(''. $rij[1]['datum'] .' Handbal overzicht');
+
+//als haarle in de string zit zet deze stijl op de cel
+$haarleStyle = 'background-color:black; color:white;';
 
 //set variable naar 1 als 'haarle' is gedetecteerd
 $haarleT = 0;
@@ -54,13 +55,23 @@ $i =0;
 
 foreach ($rij as $key => $value) {
     if ($product[$i] == $key) {
+        $teamU = array();
+        $teamT = array();
+        $explodedTeamT = explode(" ", $rij[$key]['thuisteam']);
+        $explodedTeamU = explode(" ", $rij[$key]['uitteam']);
+        if ($explodedTeamT[0] == "Haarle" || $explodedTeamU[0] == "haarle") {
+            $haarleT = 1;
+        }
         
+        if ($explodedTeamU[0] == "Haarle" || $explodedTeamU[0] == "haarle") {
+            $haarleU = 1;
+        }
         $data .= '
         <tr>
             <td style="border: 1px solid black;">'.$rij[$key]['datum'].'</td>
             <td style="border: 1px solid black;">'.$rij[$key]['tijd'].'</td>
-            <td style="border: 1px solid black;">'.$rij[$key]['thuisteam'].'</td>
-            <td style="border: 1px solid black;">'.$rij[$key]['uitteam'].'</td>
+            <td style="border: 1px solid black; '; if($haarleT == 1){$data .= $haarleStyle; $haarleT =0;} $data .= '">'.$rij[$key]['thuisteam'].'</td>
+            <td style="border: 1px solid black; '; if($haarleU == 1){$data .= $haarleStyle; $haarleU =0;} $data .= '">'.$rij[$key]['uitteam'].'</td>
             <td style="border: 1px solid black;" rowspan="2">'.$rij[$key]['scheidsrechter-1'].' '.$rij[$key]['scheidsrechter-2'].'</td>
             <td style="border: 1px solid black;" rowspan="2">'.$rij[$key]['zaaldienst'].'</td>
         </tr>
