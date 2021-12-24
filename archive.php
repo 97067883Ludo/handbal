@@ -27,6 +27,7 @@
         <th>Aanmaakdatum</th>
         <th>Aanmaakmomnet</th>
         <th>Bekijken</th>
+        <th>Email</th>
         <th>downloaden</th>
         <th>Verwijderen</th>
         </tr>
@@ -81,6 +82,12 @@
             <td>'.$files[$key]['date'].'</td>
             <td>'.$files[$key]['time'].'</td>
             <td><a class="btn btn-primary" href="archive/'.$files[$key]['fileName'].'">Bekijk</a></td>
+            <td>
+            <form action="composeEmail.php" method="post">
+                <input type="hidden" value="'.$files[$key]['fileName'].'" name="fileName">
+                <input type="submit" class="btn btn-primary" value="Mail">
+            </form>
+            </td>
             <td><a class="btn btn-primary" href="archive/'.$files[$key]['fileName'].'" download="'.$files[$key]['fileName'].'">Download</a></td>
             <td>
             <form action="delete.php" method="post">
