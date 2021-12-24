@@ -1,5 +1,9 @@
 <?php
 
+if (!file_exists('upload')) {
+    mkdir('upload');
+}
+
 $target_dir = 'upload/';
 $target_file = $target_dir . basename($_FILES['fileToUpload']['name']);
 $fileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));

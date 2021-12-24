@@ -18,29 +18,32 @@
         require 'printMenu.php';
         printMenu();
         $fileDir = 'archive';
+
+        echo'
+        <div class="container mt-5">
+        <table class="table">
+        <thead>
+        <tr>
+        <th>Aanmaakdatum</th>
+        <th>Aanmaakmomnet</th>
+        <th>Bekijken</th>
+        <th>downloaden</th>
+        <th>Verwijderen</th>
+        </tr>
+        </thead>
+        <tbody>
+        ';
+
         if (is_dir($fileDir)) {
-            
-            echo'
-            <div class="container mt-5">
-            <table class="table">
-            <thead>
-            <tr>
-            <th>Aanmaakdatum</th>
-            <th>Aanmaakmomnet</th>
-            <th>Bekijken</th>
-            <th>downloaden</th>
-            <th>Verwijderen</th>
-            </tr>
-            </thead>
-            <tbody>
-            ';
             $fileArray = array();
             $files = array();
             if ($dh = opendir($fileDir)) {
                 while (($file = readdir($dh)) !== false) {
+
                     if ($file == '.' || $file == '..') {
                         continue;
                     }
+
                     $fileNameArray = explode('_', $file);
                     $datum = date("Y-m-d", strtotime($fileNameArray[0]));
                     $tijd = date('H:i:s', strtotime($fileNameArray[1]));
@@ -51,12 +54,18 @@
                     $fileArray['date'] = $datum;
                     $fileArray['time'] = $tijd;
                     $files[] = $fileArray;
+
+                    if ($files == NULL) {
+                        return;
+                    }
+
                 }
             }else {
                 echo 'er is iets fout gegaan met het openen van de map heb ik de juiste rechten?';
             }
         }else {
-            echo 'map niet gevonden';
+            mkdir("archive");
+            return;
         }
         function date_compare($element1, $element2) {
             $datetime1 = $element1['timeStamp'];
