@@ -17,6 +17,7 @@ if (!isset($_POST['fileName'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="ajax.js"></script>
     <title>Email opstellen</title>
 </head>
 
@@ -31,8 +32,8 @@ if (!isset($_POST['fileName'])) {
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-6">
+                <div id="mailStatus"></div>
                 <h3>Email Opstellen</h3>
-                <form action="#" method="post">
                     <div class="input-group">
                         <span class="input-group-text mt-3">Aan</span>
                         <input type="email" class="form-control mt-3" id="Email" placeholder="naam@voorbeeld.nl">
@@ -41,10 +42,9 @@ if (!isset($_POST['fileName'])) {
                         <span class="input-group-text mt-3">Onderwerp</span>
                         <input type="text" class="form-control mt-3" id="Subject" placeholder="Onderwerp" name="Subject">
                     </div>
-                    <textarea class="form-control mt-3" rows="5" id="FormControlInputMessage" name="Message"></textarea>
-                    <input type="hidden" id="file" value="'.$file.'" name="fileName">
-                    <button type="submit" onclick="function()" class="btn btn-primary mt-3">Verstuur</button>
-                </form>
+                    <textarea class="form-control mt-3" rows="5" id="Message" name="Message"></textarea>
+                    <input type="hidden" id="file" value="archive/'.$file.'" name="fileName">
+                    <button type="submit" onclick="sendMail()" id="send" class="btn btn-primary mt-3">Verstuur</button>
             </div>
             <div class="col-sm-6">
             <h3>Voorbeeld</h3>
