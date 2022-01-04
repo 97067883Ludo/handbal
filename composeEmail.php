@@ -31,8 +31,20 @@ if (!isset($_POST['fileName'])) {
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-6">
-                <h3>Column 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                <h3>Email Opstellen</h3>
+                <form>
+                    <div class="input-group">
+                        <span class="input-group-text mt-3">Aan</span>
+                        <input type="email" class="form-control mt-3" id="Email" placeholder="naam@voorbeeld.nl">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text mt-3">Onderwerp</span>
+                        <input type="text" class="form-control mt-3" id="Subject" placeholder="Onderwerp" name="Subject">
+                    </div>
+                    <textarea class="form-control mt-3" rows="5" id="FormControlInputMessage" name="Message"></textarea>
+                    <input type="hidden" id="file" value="'.$file.'" name="fileName">
+                    <button type="submit" class="btn btn-primary mt-3">Verstuur</button>
+                </form>
             </div>
             <div class="col-sm-6">
             <h3>Voorbeeld</h3>
