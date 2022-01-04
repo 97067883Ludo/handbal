@@ -1,0 +1,12 @@
+{
+    "mailSettings":[
+        {
+            "host":"smtp-mail.outlook.com",
+            "SMTPAuth": true,
+            "Username":"ludotielbeke@outlook.com",
+            "Password":"Ludo123456",
+            "Port": 587
+        }
+    ]
+    
+}
