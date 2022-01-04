@@ -32,7 +32,7 @@ if (!isset($_POST['fileName'])) {
         <div class="row">
             <div class="col-sm-6">
                 <h3>Email Opstellen</h3>
-                <form>
+                <form action="#" method="post">
                     <div class="input-group">
                         <span class="input-group-text mt-3">Aan</span>
                         <input type="email" class="form-control mt-3" id="Email" placeholder="naam@voorbeeld.nl">
@@ -43,7 +43,7 @@ if (!isset($_POST['fileName'])) {
                     </div>
                     <textarea class="form-control mt-3" rows="5" id="FormControlInputMessage" name="Message"></textarea>
                     <input type="hidden" id="file" value="'.$file.'" name="fileName">
-                    <button type="submit" class="btn btn-primary mt-3">Verstuur</button>
+                    <button type="submit" onclick="function()" class="btn btn-primary mt-3">Verstuur</button>
                 </form>
             </div>
             <div class="col-sm-6">
