@@ -80,8 +80,6 @@ function fixDateTime($dateTime, $hoursOrDate, $row){
 //Deze functie schrijft de header op het beeldscherm met de juist stijl
 function writeHeader($header, $headerSize){
 
-    $headerHtml = '';
-
     $errors = $GLOBALS['errors'];
     foreach ($errors as $value) {
         echo '
@@ -143,8 +141,6 @@ function writeHeader($header, $headerSize){
 }
 //Deze fucntie loopt door de array die boven aan gemaakt is.
 function walkThruxlsx(){
-    $headerSize = $GLOBALS['headerSize'];
-    $header = $GLOBALS['header'];
     $wedstrijd = $GLOBALS['rij'];
     $ii = 0;
     foreach ($wedstrijd as $key => $value) {
