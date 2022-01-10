@@ -37,17 +37,19 @@ try {
     $mail->isHTML(true);
     $mail->Subject = $subject;
     $mail->Body    = $message;
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->AltBody = $message;
 
     $mail->addAttachment($file, 'Schemalijst.pdf');
     $mail->send();
-    echo '<div class="alert alert-success" role="alert">
+    echo '
+          <div class="alert alert-success" role="alert">
             De mail is succesvol verstuurd
           </div>
     ';
 } catch (Exception $e) {
 
-    echo '<div class="alert alert-danger" role="alert">
+    echo '
+          <div class="alert alert-danger" role="alert">
             Message could not be sent. Mailer Error: {'.$mail->ErrorInfo.'}
           </div>
     ';
