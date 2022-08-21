@@ -27,12 +27,12 @@
             <p class="select-none font-bold">Menu:</p>
             <a class="py-1.5" href="/logout">Uitloggen</a>
         </div>
-
-        <div>
-
-        </div>
     </div>
 </div>
+<div class="flex justify-center mt-10">
+    <div class="flex flex-wrap break-all max-w-[80%]">
 
+    </div>
+</div>
 </body>
 </html>

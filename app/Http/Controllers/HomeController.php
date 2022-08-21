@@ -11,8 +11,6 @@ class HomeController extends Controller
     public function GetHomePage()
     {
 
-        XlsxController::GetRows();
-
         return view('home', [
             'avatar' => ucfirst(Auth::user()->name[0]),
         ]);
