@@ -11,7 +11,25 @@ class XlsxController extends Controller
 
     public function GetRows()
     {
+        $filepath = $this->getMediaPath();
 
-        SimpleExcelReader::create('excelFile.xlsx')->getRows()->each();
+
+        $rows = SimpleExcelReader::create($filepath)->getRows();
+
+        foreach ($rows as $row){
+            $allRows[] = $row;
+        }
+
+        return $allRows;
+    }
+
+    private function getMediaPath()
+    {
+
+        $mediaItems = Auth::user()->getMedia();
+
+        $filePath = $mediaItems[0]->getPath();
+
+        return $filePath;
     }
 }
