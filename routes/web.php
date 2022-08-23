@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UploadController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -31,3 +32,5 @@ Route::middleware('guest')->get('/login', [AuthController::class, 'getLoginScree
 Route::middleware('auth')->get('/logout', [AuthController::class, 'logout']);
 
 Route::middleware('auth')->get('/home', [HomeController::class, 'GetHomePage'])->name('/home');
+
+Route::middleware('auth')->post('/home/upload', [UploadController::class, 'FileUploaded']);
