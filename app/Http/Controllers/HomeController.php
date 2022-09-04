@@ -9,7 +9,7 @@ use Spatie\SimpleExcel\SimpleExcelReader;
 class HomeController extends Controller
 {
 
-
+    private $rows = null;
 
     public function GetHomePage()
     {
@@ -17,17 +17,18 @@ class HomeController extends Controller
         if (Auth::user()->hasMedia()) {
 
             $file = new XlsxController();
-            $rows = $file->GetRows();
-
-
+            $this->rows = $file->GetRows();
 
         }else{
-            //when there is no file
+            return view('home', [
+                'avatar' => ucfirst(Auth::user()->name[0]),
+                'rows' => $this->rows
+            ]);
         }
 
         return view('home', [
             'avatar' => ucfirst(Auth::user()->name[0]),
-            'rows' => $rows
+            'rows' => $this->rows
         ]);
 
     }
