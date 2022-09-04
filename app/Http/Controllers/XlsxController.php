@@ -9,18 +9,28 @@ use Spatie\SimpleExcel\SimpleExcelReader;
 class XlsxController extends Controller
 {
 
+    protected $allRows;
+    protected $filePath;
+    protected $header;
+
+    function __construct()
+    {
+        $this->filePath = $this->getMediaPath();
+    }
+
     public function GetRows()
     {
-        $filepath = $this->getMediaPath();
-
-
-        $rows = SimpleExcelReader::create($filepath)->getRows();
-
+        $rows = SimpleExcelReader::create($this->filePath)->getRows();
         foreach ($rows as $row){
-            $allRows[] = $row;
+            $this->allRows[] = $row;
         }
 
-        return $allRows;
+        return $this->allRows;
+    }
+
+    public function getHeader()
+    {
+        return SimpleExcelReader::create($this->filePath)->getHeaders();
     }
 
     private function getMediaPath()

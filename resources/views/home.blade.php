@@ -67,11 +67,18 @@
 </div>
 
 <div>
+    <form action="/home/controle" method="post">
     @if(is_null($rows))
-        <div>
+    @foreach($headers as $header)
 
-        </div>
+    @endforeach
+
+    @else
+        @foreach($rows as $key => $items)
+
+        @endforeach
     @endif
+    </form>
 </div>
 
 </body>
