@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Spatie\SimpleExcel\SimpleExcelReader;
 
 class XlsxController extends Controller
 {
 
-    protected $allRows;
+    protected $allMatches;
     protected $filePath;
     protected $header;
 
@@ -20,17 +19,42 @@ class XlsxController extends Controller
 
     public function GetRows()
     {
-        $rows = SimpleExcelReader::create($this->filePath)->getRows();
-        foreach ($rows as $row){
-            $this->allRows[] = $row;
-        }
+        $matches = SimpleExcelReader::create($this->filePath)->getRows();
+        foreach ($matches as $match){
 
-        return $this->allRows;
+           $this->allMatches[] = $this->convertDateTimeToString($match);
+        }
+        return $this->allMatches;
+    }
+
+    protected function convertDateTimeToString(mixed $match)
+    {
+        foreach ($match as $key => $matchItem) {
+            $key = strtolower($key);
+            if(gettype($matchItem) == 'object' && get_class($matchItem) == 'DateTime'){
+                $matchItem = match ($key) {
+                    'datum' => $matchItem->format('Y-m-d'),
+                    'tijd' => $matchItem->format('H:i:s'),
+                    default => $matchItem->format('Y-m-d H:i'),
+                };
+
+            }
+            $convertedMatch[$key] = $matchItem;
+        }
+        return $convertedMatch;
     }
 
     public function getHeader()
     {
-        return SimpleExcelReader::create($this->filePath)->getHeaders();
+        $header = SimpleExcelReader::create($this->filePath)->getHeaders();
+
+        foreach ($header as $key => $headerItem) {
+            $header[$key] = strtolower($headerItem);
+            if (empty($headerItem)) {
+                array_splice($header, $key, null, "Nb.");
+            }
+        }
+        return $header;
     }
 
     private function getMediaPath()

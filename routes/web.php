@@ -34,3 +34,5 @@ Route::middleware('auth')->get('/logout', [AuthController::class, 'logout']);
 Route::middleware('auth')->get('/home', [HomeController::class, 'GetHomePage'])->name('/home');
 
 Route::middleware('auth')->post('/home/upload', [UploadController::class, 'FileUploaded']);
+
+Route::middleware('auth')->post('/home/controle', [HomeController::class, 'getHomeControle']);
