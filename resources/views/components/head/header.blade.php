@@ -8,7 +8,7 @@
             @click="avatarMenuOpen =! avatarMenuOpen"
             @click.outside="avatarMenuOpen = false"
             x-cloak
-        >{{ $avatar }}</div>
+        >{{ucfirst(Auth::user()->name[0])}}</div>
         <div class="float-right right-7 top-7 fixed mt-2 bg-white p-2 rounded"
              x-show="avatarMenuOpen"
              x-cloak

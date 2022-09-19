@@ -42,10 +42,15 @@ class HomeController extends Controller
         ]);
 
         $matches = FilterController::filterSelectedMatches($request->wedstrijden, $request->filters);
-        $matchTable = ParseHtml::makeMatchTable($matches);
+
+//        dd($matches);
 
         $data = view('match-table', [
             'matchtable' => $matches
         ])->render();
+
+        return view('controle', [
+            'data' => $data
+        ]);
     }
 }

@@ -11,7 +11,7 @@
     <title>SchemaMaker</title>
 </head>
 <body>
-@include('header')
+<x-head.header/>
 
 
 @if ($message = Session::get('error'))
@@ -62,7 +62,7 @@
                 <input type="submit" class="p-2 bg-green-500 mt-2 rounded-lg text-white" value="Submit ->">
                 @csrf
                 <table class="table-auto rounded-t-lg mt-4 flex flex-col">
-                    <tr class="bg-gray-300 rounded-t-xl ">
+                    <tr class="bg-gray-300 rounded-t-xl">
                         <td>#</td>
                         @foreach($headers as $key => $header)
                             <td class="">
