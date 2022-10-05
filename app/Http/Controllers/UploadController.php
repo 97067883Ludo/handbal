@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
+use App\Models\Mapper;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
-use mysql_xdevapi\Exception;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 
 class UploadController extends Controller
 {
@@ -15,30 +14,27 @@ class UploadController extends Controller
     public function FileUploaded(Request $request)
     {
 
-        if ($request->hasFile('fileToUpload')) {
-            //the current request has a file if not then return back home
-        }else{
+        if (!$request->hasFile('fileToUpload')) {
             return back()->with('error', 'er is iet mis gegaan');
         }
 
-        if ($request->file('fileToUpload')->getMimeType() == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"){
-            //pass
-        }else{
+        if ($request->file('fileToUpload')->getMimeType() != "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"){
             return back()->with('error', 'er is iet mis gegaan');
         }
 
-        $user = Auth::user();
+        $file = Storage::disk('local')->put('wedstrijd', $request->file('fileToUpload'));
 
-        if ($user->hasMedia()){
-            $user->clearMediaCollection('default');
-        }
+        $filePath = storage_path('app/'.$file);
 
-        $user
-            ->addMedia($request->fileToUpload) //starting method
-            ->withCustomProperties(['mime-type' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet']) //middle method
-            ->preservingOriginal() //middle method
-            ->toMediaCollection(); //finishing method
+        $xlsx = new XlsxController();
+        $header = $xlsx->getHeader($filePath);
+        $rows = $xlsx->GetRows($filePath);
 
+        $mappedMatches = (new MapperController)->map($rows);
+
+        (new insertMatchesIntoDatabase())->do($mappedMatches);
+
+        File::delete($filePath);
         return redirect()->route('/home');
     }
 

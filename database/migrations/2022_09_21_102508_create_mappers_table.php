@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('mappers', function (Blueprint $table) {
             $table->id();
-            $table->string('dbfield');
-            $table->string('excelfield');
+            $table->string('dbfield')->nullable();
+            $table->string('excelfield')->nullable();
             $table->timestamps();
         });
     }

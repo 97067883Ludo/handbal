@@ -12,17 +12,14 @@ class XlsxController extends Controller
     protected $filePath;
     protected $header;
 
-    function __construct()
-    {
-        $this->filePath = $this->getMediaPath();
-    }
 
-    public function GetRows()
+    public function GetRows($filePath)
     {
-        $matches = SimpleExcelReader::create($this->filePath)->getRows();
+        $matches = SimpleExcelReader::create($filePath)->getRows();
         foreach ($matches as $match){
 
            $this->allMatches[] = $this->convertDateTimeToString($match);
+
         }
         return $this->allMatches;
     }
@@ -37,33 +34,19 @@ class XlsxController extends Controller
                     'tijd' => $matchItem->format('H:i:s'),
                     default => $matchItem->format('Y-m-d H:i'),
                 };
-
             }
             $convertedMatch[$key] = $matchItem;
         }
         return $convertedMatch;
     }
 
-    public function getHeader()
+    public function getHeader($file)
     {
-        $header = SimpleExcelReader::create($this->filePath)->getHeaders();
-
+        $header = collect(SimpleExcelReader::create($file)->getHeaders());
         foreach ($header as $key => $headerItem) {
             $header[$key] = strtolower($headerItem);
-            if (empty($headerItem)) {
-                array_splice($header, $key, null, "Nb.");
-            }
         }
         return $header;
     }
 
-    private function getMediaPath()
-    {
-
-        $mediaItems = Auth::user()->getMedia();
-
-        $filePath = $mediaItems[0]->getPath();
-
-        return $filePath;
-    }
 }

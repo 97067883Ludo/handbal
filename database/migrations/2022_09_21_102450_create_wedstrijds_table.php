@@ -15,13 +15,16 @@ return new class extends Migration
     {
         Schema::create('wedstrijds', function (Blueprint $table) {
             $table->id();
+            $table->string('wedstrijd_nummer');
             $table->string('datum');
             $table->string('tijd');
             $table->string('thuisteam');
             $table->string('uitteam');
-            $table->string('scheidsrechter');
-            $table->string('tafeldienst');
-            $table->string('veld');
+            $table->string('scheidsrechter_1')->nullable();
+            $table->string('scheidsrechter_2')->nullable();
+            $table->string('tafeldienst')->nullable();
+            $table->string('veld')->nullable();
+            $table->string('begeleider_jeugdspelleider')->nullable();
             $table->timestamps();
         });
     }

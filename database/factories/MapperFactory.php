@@ -17,7 +17,26 @@ class MapperFactory extends Factory
     public function definition()
     {
         return [
-
+            "dbfield" => "wedstrijd_nr",
+            "excelfield" => "nummer",
+            "dbfield" => "datum",
+            "excelfield" => "datum",
+            "dbfield" => "tijd",
+            "excelfield" => "tijd",
+            "dbfield" => "thuisteam",
+            "excelfield" => "thuisteam",
+            "dbfield" => "uitteam",
+            "excelfield" => "uitteam",
+            "dbfield" => "plaats",
+            "excelfield" => "plaats",
+            "dbfield" => "scheidsrechters",
+            "excelfield" => "scheidsrechter-1",
+            "dbfield" => "scheidsrechters",
+            "excelfield" => "scheidsrechter-2",
+            "dbfield" => "begeleider_jeugdspelleider",
+            "excelfield" => "begeleider jeugdspelleider",
+            "dbfield" => "zaaldienst",
+            "excelfield" => "zaaldienst",
         ];
     }
 }
