@@ -1,5 +1,5 @@
-<div class="w-screen">
-    <div class="bg-gray-200 w-screen h-16 min-h-14 flex flex-row items-center justify-between px-3 pr-10"
+<div class="w-full">
+    <div class="bg-gray-200 w-full h-16 min-h-14 flex flex-row items-center justify-between px-3 pr-10"
          x-data="{ avatarMenuOpen: false }"
     >
         <h1 class="flex text-3xl text-gray-700"><a href="/">Handbal Schema Maker</a></h1>

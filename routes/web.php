@@ -35,4 +35,4 @@ Route::middleware('auth')->get('/home', [HomeController::class, 'GetHomePage'])-
 
 Route::middleware('auth')->post('/home/upload', [UploadController::class, 'FileUploaded']);
 
-Route::middleware('auth')->post('/home/controle', [HomeController::class, 'getHomeControle']);
+Route::middleware('auth')->post('/home/check', [\App\Http\Controllers\CheckController::class, 'show']);

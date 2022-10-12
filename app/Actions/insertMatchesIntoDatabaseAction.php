@@ -1,19 +1,18 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Actions;
 
 use App\Models\Wedstrijd;
-use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 
-class insertMatchesIntoDatabase extends Controller
+class insertMatchesIntoDatabaseAction
 {
-    public function do(Collection $mappedMatches): void
+
+    public function __invoke(Collection $mappedMatches): void
     {
         Wedstrijd::truncate();
 
-        $mappedMatches->map(function ($value, $key) {
-//            dd($value);
+        $mappedMatches->map(function ($value) {
             Wedstrijd::create([
                 'veld' => $value['veld'],
                 'wedstrijd_nummer' => $value['wedstrijd_nummer'],

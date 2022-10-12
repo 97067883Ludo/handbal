@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Service;
 
 use App\Models\Mapper;
 use Illuminate\Support\Collection;
 
-class MapperController extends Controller
+class ColumnMapper
 {
 
     public function map($rows): Collection
@@ -15,9 +15,8 @@ class MapperController extends Controller
         return collect($rows)
             ->map(function(array $row) use ($mappings) {
                 return collect($row)->mapWithKeys(function($value, $key) use ($mappings){
-                    return [($mappings->has($key) ? $mappings[$key] : 'unmapped') => $value];
+                    return([($mappings->has(strtolower($key)) ? $mappings[strtolower($key)] : 'unmapped') => $value]);
                 });
             });
     }
 }
-

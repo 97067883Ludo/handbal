@@ -1,8 +1,3 @@
-<body>
-
-@foreach($matchtable as $match)
-    @foreach($match as $matchdata)
-        {{$matchdata}}
-    @endforeach
+@foreach($matches as $index => $match)
+    {{$index}}
 @endforeach
-</body>

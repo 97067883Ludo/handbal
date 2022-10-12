@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Mapper;
+use App\Actions\insertMatchesIntoDatabaseAction;
+use App\Actions\Xlsx\MapXlsxHeaderToDbColumnsAction;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\File;
@@ -26,13 +27,9 @@ class UploadController extends Controller
 
         $filePath = storage_path('app/'.$file);
 
-        $xlsx = new XlsxController();
-        $header = $xlsx->getHeader($filePath);
-        $rows = $xlsx->GetRows($filePath);
+        $mappedMatches = (new MapXlsxHeaderToDbColumnsAction)($filePath);
 
-        $mappedMatches = (new MapperController)->map($rows);
-
-        (new insertMatchesIntoDatabase())->do($mappedMatches);
+        (new insertMatchesIntoDatabaseAction())($mappedMatches);
 
         File::delete($filePath);
         return redirect()->route('/home');
