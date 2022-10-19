@@ -16,6 +16,7 @@
     Verstuur via email
 </h2>
 <form action="{{route('sendEmail')}}" method="POST">
+    <input type="hidden" name="file" value="{{$file->id}}">
     @csrf
     <div class="flex flex-row h-full">
         <div class="w-[50%]">
