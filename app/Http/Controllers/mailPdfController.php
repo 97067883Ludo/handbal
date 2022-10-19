@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Actions\MakePdfAction;
+use App\Mail\test;
+use App\Notifications\sendPdfNotification;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 
 class mailPdfController extends Controller
 {
@@ -30,5 +32,17 @@ class mailPdfController extends Controller
                 return $file;
             }
         }
+    }
+
+    public function sendMail(Request $request)
+    {
+        $request->validate([
+            'to' => 'required|Email',
+            'subject' => 'required',
+            'text' => 'required',
+        ]);
+
+        Mail::to($request->to)->send(new test($request->subject, $request->text));
+
     }
 }

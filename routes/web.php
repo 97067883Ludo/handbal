@@ -6,7 +6,10 @@ use App\Http\Controllers\createPdfController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\mailPdfController;
 use App\Http\Controllers\UploadController;
+use App\Notifications\NewMessage;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,6 +38,7 @@ Route::middleware('auth')->group(function () {
     Route::post('/home/upload', [UploadController::class, 'FileUploaded']);
     Route::get('/home', [HomeController::class, 'GetHomePage'])->name('/home');
     Route::get('/logout', [AuthController::class, 'logout']);
+    Route::post('/home/send-email', [mailPdfController::class, 'sendMail'])->name('sendEmail');
 });
 
 

@@ -15,7 +15,7 @@
 <h2 class="px-7 mt-5 text-2xl">
     Verstuur via email
 </h2>
-<form action="POST">
+<form action="{{route('sendEmail')}}" method="POST">
     @csrf
     <div class="flex flex-row h-full">
         <div class="w-[50%]">
@@ -29,6 +29,7 @@
                         </label>
                         <input class="appearance-none block w-full bg-gray-100 text-gray-700 border border-blue-400 border-2 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                                id="grid-email"
+                               name="to"
                                type="Email"
                                placeholder="Email"
                         >
@@ -40,6 +41,7 @@
                         </label>
                         <input class="appearance-none block w-full bg-gray-100 text-gray-700 border border-blue-400 border-2 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                                id="grid-subject"
+                               name="subject"
                                type="subject"
                                placeholder="onderwerp"
                         >
@@ -48,8 +50,9 @@
                                   name="emailText"
                         ></textarea>
                         <input
-                            class="text-white p-3 bg-green-500 rounded-lg mt-5"
-                            type="button"
+                            class="text-white p-3 bg-green-500 rounded-lg mt-5 hover:bg-green-600 cursor-pointer"
+                            type="submit"
+                            name="text"
                             value="verstuur"
                         >
                     </div>
