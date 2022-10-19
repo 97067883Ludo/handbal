@@ -28,18 +28,16 @@ Route::middleware('guest')->get('/', function () {
 
 })->name('login');
 
+Route::middleware('auth')->group(function () {
+    Route::get('/home/mail-pdf', [mailPdfController::class, 'view'])->name('mailPdf');
+    Route::post('/home/create-pdf', [createPdfController::class, 'createPdf'])->name('createPdf');
+    Route::post('/home/check', [CheckController::class, 'show']);
+    Route::post('/home/upload', [UploadController::class, 'FileUploaded']);
+    Route::get('/home', [HomeController::class, 'GetHomePage'])->name('/home');
+    Route::get('/logout', [AuthController::class, 'logout']);
+});
+
+
 Route::middleware('guest')->post('/login', [AuthController::class, 'authenticate']);
 
 Route::middleware('guest')->get('/login', [AuthController::class, 'getLoginScreen'])->name('/login');
-
-Route::middleware('auth')->get('/logout', [AuthController::class, 'logout']);
-
-Route::middleware('auth')->get('/home', [HomeController::class, 'GetHomePage'])->name('/home');
-
-Route::middleware('auth')->post('/home/upload', [UploadController::class, 'FileUploaded']);
-
-Route::middleware('auth')->post('/home/check', [CheckController::class, 'show']);
-
-Route::middleware('auth')->post('/home/create-pdf', [createPdfController::class, 'createPdf'])->name('createPdf');
-
-Route::middleware('auth')->get('/home/mail-pdf', [mailPdfController::class, 'view'])->name('mailPdf');

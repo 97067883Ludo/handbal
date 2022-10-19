@@ -16,7 +16,7 @@ class createPdfController extends Controller
         $file = json_decode($file, true);
 
         return redirect(route('mailPdf', [
-            'file' => json_decode($file['id'])
+            'file' => $file['id']
         ]));
     }
 }
