@@ -1,7 +1,10 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CheckController;
+use App\Http\Controllers\createPdfController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\mailPdfController;
 use App\Http\Controllers\UploadController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -35,4 +38,8 @@ Route::middleware('auth')->get('/home', [HomeController::class, 'GetHomePage'])-
 
 Route::middleware('auth')->post('/home/upload', [UploadController::class, 'FileUploaded']);
 
-Route::middleware('auth')->post('/home/check', [\App\Http\Controllers\CheckController::class, 'show']);
+Route::middleware('auth')->post('/home/check', [CheckController::class, 'show']);
+
+Route::middleware('auth')->post('/home/create-pdf', [createPdfController::class, 'createPdf'])->name('createPdf');
+
+Route::middleware('auth')->get('/home/mail-pdf', [mailPdfController::class, 'getPage'])->name('mailPdf');

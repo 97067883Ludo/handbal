@@ -11,7 +11,6 @@ use Illuminate\Support\Facades\File;
 class UploadController extends Controller
 {
 
-
     public function FileUploaded(Request $request)
     {
 

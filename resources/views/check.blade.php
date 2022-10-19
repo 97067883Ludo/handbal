@@ -10,11 +10,16 @@
     <x-head.tinymce-config/>
     <title>Controle</title>
 </head>
-<body>
+<body class="bg-gray-100">
     <x-head.header />
-<form method="post">
-    <textarea id="myeditorinstance">{!! $data !!}</textarea>
-</form>
+
+    <div class="flex justify-center mt-5">
+        <form method="post" action="{{route('createPdf')}}" class="w-[75%] h-full">
+            @csrf
+            <input type="submit" value="Verder ->" class="bg-green-500 hover:bg-green-600 p-3 mb-2 rounded-lg text-white">
+            <textarea id="myeditorinstance" name="matchtable">{!! $matchTable !!} </textarea>
+        </form>
+    </div>
 
 </body>
 </html>

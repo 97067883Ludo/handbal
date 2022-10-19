@@ -14,6 +14,9 @@ class CheckController extends Controller
         ]);
 
         $matchTable = (new MakeMatchTableAction(collect($request->matches)))->make();
-        dd($matchTable);
+
+        return view('check', [
+            'matchTable' => $matchTable
+        ]);
     }
 }

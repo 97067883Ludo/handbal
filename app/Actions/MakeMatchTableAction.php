@@ -10,14 +10,13 @@ class MakeMatchTableAction extends MakeMatchTable
     {
     }
 
-
-    public function make()
+    public function make(): string
     {
         $matches = $this->JsonDecodeMatches();
         $view = view('match-table', [
             'matches' => $matches
         ])->render();
-        dd($view);
+        return $view;
     }
 
     public function JsonDecodeMatches(): \Illuminate\Support\Collection
