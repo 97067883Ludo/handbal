@@ -42,4 +42,4 @@ Route::middleware('auth')->post('/home/check', [CheckController::class, 'show'])
 
 Route::middleware('auth')->post('/home/create-pdf', [createPdfController::class, 'createPdf'])->name('createPdf');
 
-Route::middleware('auth')->get('/home/mail-pdf', [mailPdfController::class, 'getPage'])->name('mailPdf');
+Route::middleware('auth')->get('/home/mail-pdf', [mailPdfController::class, 'view'])->name('mailPdf');

@@ -11,8 +11,12 @@ class createPdfController extends Controller
     {
         $pdf = ($pdfMaker = new MakePdfAction($request->matchtable))->makePdf();
 
-        $path = $pdfMaker->savePdfFile($pdf);
+        $file = $pdfMaker->savePdfFile($pdf);
 
-        return redirect(route('mailPdf', []));
+        $file = json_decode($file, true);
+
+        return redirect(route('mailPdf', [
+            'file' => json_decode($file['id'])
+        ]));
     }
 }

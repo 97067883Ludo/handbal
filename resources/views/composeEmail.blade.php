@@ -52,15 +52,14 @@
                             type="button"
                             value="verstuur"
                         >
-
                     </div>
                 </div>
             </div>
         </div>
         <div class="w-[50%]">
             <div class="h-full w-full px-7 py-8">
-                <div class="bg-white p-3 rounded-lg">
-                    pdf preview
+                <div class="bg-white p-3 rounded-lg h-full">
+                    <iframe src="{{$file->getFullUrl()}}#toolbar=0" class="w-full min-h-full"></iframe>
                 </div>
             </div>
         </div>

@@ -32,9 +32,9 @@ class MakePdfAction
 
         $path = $this->pathCreation();
         $pdf->Output($path, 'F');
-        $user->addMedia($path)->toMediaCollection('archive');
+        $file = $user->addMedia($path)->toMediaCollection('archive');
 
-        return $path;
+        return $file;
     }
 
     private function pathCreation(): string
