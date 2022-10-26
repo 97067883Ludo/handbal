@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArchiveController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CheckController;
 use App\Http\Controllers\createPdfController;
@@ -39,6 +40,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/home', [HomeController::class, 'GetHomePage'])->name('/home');
     Route::get('/logout', [AuthController::class, 'logout']);
     Route::post('/home/send-email', [mailPdfController::class, 'sendMail'])->name('sendEmail');
+    Route::get('/home/archive', [ArchiveController::class, 'show'])->name('archive');
+    Route::get('home/delete-pdf', [ArchiveController::class, 'delete'])->name('deleteMediaItem');
 });
 
 

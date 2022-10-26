@@ -11,25 +11,22 @@
 </head>
 <body class="bg-gray-100">
 <x-head.header/>
-
-@if ($message = Session::get('error'))
-    <div class="alert alert-danger alert-block">
-        <button type="button" class="close" data-dismiss="alert">×</button>
-        <strong>{{ $message }}</strong>
-    </div>
-@endif
-<div class="flex flex-col mt-10">
+<x-notifications></x-notifications>
+<div class="flex flex-col mt-10 inline-flex w-full">
     <div class="w-[80%] m-auto justify-center">
         <div class="flex flex-row">
             <x-modal></x-modal>
+            <input
+                type="submit"
+                class="p-2 bg-green-500 text-white rounded-lg hover:bg-green-600 hover:cursor-pointer mx-2"
+                form="FORM"
+                value="Verder"
+            >
         </div>
         <div class="flex flex-col">
             <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div class=" min-w-full sm:px-6 lg:px-8">
-                    <form action="/home/check" method="POST">
-                        <input type="submit"
-                               class="p-2 bg-green-500 text-white rounded-lg mt-5 hover:bg-green-600 hover:cursor-pointer"
-                               value="verder">
+                    <form action="/home/check" id="FORM" method="POST">
                         @csrf
                         <div class="p-2 bg-white rounded-2xl my-3">
                             <table class="min-w-full">

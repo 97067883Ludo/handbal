@@ -9,12 +9,16 @@
             @click.outside="avatarMenuOpen = false"
             x-cloak
         >{{ucfirst(Auth::user()->name[0])}}</div>
-        <div class="float-right right-7 top-7 fixed mt-2 bg-white p-2 rounded"
+        <div class="float-right right-7 top-7 fixed mt-2 bg-white p-2 rounded z-20"
              x-show="avatarMenuOpen"
              x-cloak
         >
             <p class="select-none font-bold">Menu:</p>
-            <a class="py-1.5" href="/logout">Uitloggen</a>
+            <div class="flex flex-col">
+                <a class="py-1.5" href="/home/">Home</a>
+                <a class="py-1.5" href="/home/archive">Archief</a>
+                <a class="py-1.5" href="/logout">Uitloggen</a>
+            </div>
         </div>
     </div>
 </div>

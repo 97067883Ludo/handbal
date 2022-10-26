@@ -8,13 +8,16 @@ class GetPdfFileAction
 {
     public $media;
 
-    public function __construct(public $fileId, public $collectionName)
+    public function __construct(public $fileId = null, public $collectionName)
     {
         $user = Auth::user();
 
         $this->media = $user->getMedia($collectionName);
 
-        $this->media = $this->findFile($this->media, $this->fileId);
+        if ($this->fileId !== null) {
+            $this->media = $this->findFile($this->media, $this->fileId);
+        }
+        return $this->media;
     }
 
     public function getUri()
@@ -30,6 +33,4 @@ class GetPdfFileAction
             }
         }
     }
-
-
 }
