@@ -31,7 +31,7 @@ class test extends Mailable
     public function build()
     {
         return $this
-            ->view('test')
+            ->view('test', ['text' => $this->text])
             ->subject($this->subject);
     }
 }
