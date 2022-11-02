@@ -50,11 +50,6 @@
                         <textarea id="compose-email"
                                   name="text"
                         ></textarea>
-{{--                        <input--}}
-{{--                            class="text-white p-3 bg-green-500 rounded-lg mt-5 hover:bg-green-600 cursor-pointer"--}}
-{{--                            type="submit"--}}
-{{--                            value="verstuur"--}}
-{{--                        >--}}
                         <button
                             x-data=" { inputClicked: false } "
                             @click="inputClicked = true"
