@@ -50,11 +50,20 @@
                         <textarea id="compose-email"
                                   name="text"
                         ></textarea>
-                        <input
-                            class="text-white p-3 bg-green-500 rounded-lg mt-5 hover:bg-green-600 cursor-pointer"
+{{--                        <input--}}
+{{--                            class="text-white p-3 bg-green-500 rounded-lg mt-5 hover:bg-green-600 cursor-pointer"--}}
+{{--                            type="submit"--}}
+{{--                            value="verstuur"--}}
+{{--                        >--}}
+                        <button
+                            x-data=" { inputClicked: false } "
+                            @click="inputClicked = true"
                             type="submit"
-                            value="verstuur"
+                            class="bg-green-500 hover:bg-green-600 p-3 mb-2 rounded-lg text-white flex justify-center mt-2"
                         >
+                            <span x-show="inputClicked" class="fixed animate-spin "> <x-icons.arrow-path></x-icons.arrow-path> </span>
+                            <span :class="inputClicked ? 'opacity-25' : '' ">Verder</span>
+                        </button>
                     </div>
                 </div>
             </div>

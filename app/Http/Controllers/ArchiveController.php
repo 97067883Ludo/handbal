@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Actions\DeleteArchiveItemAction;
 use App\Actions\GetPdfFileAction;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
@@ -14,6 +15,7 @@ class ArchiveController extends Controller
     {
         $archiveItems = (new getPdfFileAction(null, 'archive'));
 
+
         return view('archive', [
             'archiveItems' => $archiveItems->media,
             'headers' => ['item', 'Gemaakt op', '']
@@ -22,9 +24,11 @@ class ArchiveController extends Controller
 
     public function delete(Request $request)
     {
-        $archiveItem = (new getPdfFileAction($request->file, 'archive'));
+        $request->validate([
+           'file' => 'required',
+        ]);
 
-        $archiveItem->media->delete();
+        DeleteArchiveItemAction::handle($request->file);
 
         return redirect()->to(route('archive'))->with(['delete' => 'true']);
 

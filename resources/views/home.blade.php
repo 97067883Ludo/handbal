@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+    <script>
+        function handleClick(e) {
+            alert(e)
+        }
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -14,14 +21,17 @@
 <x-notifications></x-notifications>
 <div class="flex flex-col mt-10 inline-flex w-full">
     <div class="w-[80%] m-auto justify-center">
-        <div class="flex flex-row">
+        <div x-data="{inputClicked : false}" class="flex flex-row">
             <x-modal></x-modal>
-            <input
-                type="submit"
-                class="p-2 bg-green-500 text-white rounded-lg hover:bg-green-600 hover:cursor-pointer mx-2"
+            <button
                 form="FORM"
-                value="Verder"
+                @click="inputClicked = true"
+                class="p-2 bg-green-500 text-white rounded-lg hover:bg-green-600 hover:cursor-pointer mx-2 flex justify-center"
+
             >
+                <span x-show="inputClicked" class="fixed animate-spin "> <x-icons.arrow-path></x-icons.arrow-path> </span>
+                <span :class="inputClicked ? 'opacity-25' : '' ">Verder</span>
+            </button>
         </div>
         <div class="flex flex-col">
             <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
