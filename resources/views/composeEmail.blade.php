@@ -62,7 +62,7 @@
                             class="bg-green-500 hover:bg-green-600 p-3 mb-2 rounded-lg text-white flex justify-center mt-2"
                         >
                             <span x-show="inputClicked" class="fixed animate-spin "> <x-icons.arrow-path></x-icons.arrow-path> </span>
-                            <span :class="inputClicked ? 'opacity-25' : '' ">Verder</span>
+                            <span :class="inputClicked ? 'opacity-25' : '' ">Verstuur</span>
                         </button>
                     </div>
                 </div>
