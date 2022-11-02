@@ -2,7 +2,7 @@
 
 namespace App\Actions;
 
-use App\Mail\sendMail;
+use App\Mail\SendMail;
 use Illuminate\Support\Facades\Mail;
 
 class SendEmailAction
