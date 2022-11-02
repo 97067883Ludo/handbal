@@ -14,7 +14,7 @@ class SendEmailAction
         $text = $request->text . "Link naar bestand: <br />" . $fileUri;
 
         try {
-            Mail::to($request->to)->send(new sendMail($request->subject, $text));
+            Mail::to($request->to)->send(new SendMail($request->subject, $text));
             return redirect()->to(route('/home'))->with(['email' => 'true']);
         }
         catch(\Symfony\Component\Mailer\Exception\TransportException $e) {
