@@ -10,14 +10,14 @@
     <x-head.tinymce-config/>
     <title>Controle</title>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 h-screen">
     <x-head.header />
 
     <div class="flex justify-center mt-5">
         <form method="post" action="{{route('createPdf')}}" class="w-[75%] h-full">
             @csrf
             <input type="submit" value="Verder ->" class="bg-green-500 hover:bg-green-600 p-3 mb-2 rounded-lg text-white">
-            <textarea id="myeditorinstance" name="matchtable">{!! $matchTable !!} </textarea>
+            <textarea id="myeditorinstance" name="matchtable" class="h-[26rem]"> {!! $matchTable !!} </textarea>
         </form>
     </div>
 

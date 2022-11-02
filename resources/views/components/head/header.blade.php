@@ -15,9 +15,9 @@
         >
             <p class="select-none font-bold">Menu:</p>
             <div class="flex flex-col">
-                <a class="py-1.5" href="/home/">Home</a>
-                <a class="py-1.5" href="/home/archive">Archief</a>
-                <a class="py-1.5" href="/logout">Uitloggen</a>
+                <a class="py-1.5 pl-0.5 rounded {{ request()->is('home') ? 'bg-slate-100 cursor-not-allowed pointer-events-none' : 'hover:bg-slate-300 ' }}" href="/home/">Home</a>
+                <a class="py-1.5 my-0.5 pl-0.5 rounded {{ request()->is('home/archive') ? 'bg-slate-100 cursor-not-allowed pointer-events-none' : 'hover:bg-slate-300 ' }}" href="/home/archive">Archief</a>
+                <a class="py-1.5 pl-0.5 rounded {{ request()->is('uitloggen') ? 'bg-slate-100 cursor-not-allowed pointer-events-none' : 'hover:bg-slate-300 ' }}" href="/logout">Uitloggen</a>
             </div>
         </div>
     </div>

@@ -8,7 +8,8 @@
         Nieuwelijst
     </button>
     <div
-        class="fixed z-10 inset-0 overflow-y-auto bg-gray-300 opacity-75"
+        class="fixed z-10 inset-0 overflow-y-auto overflow-hidden"
+
         x-show="uploadModalOpen"
         x-cloak
     >
@@ -32,5 +33,11 @@
                 </form>
             </div>
         </div>
+    </div>
+    <div
+        class="fixed h-screen w-screen inset-0 opacity-75 bg-gray-300"
+        x-show="uploadModalOpen"
+    >
+
     </div>
 </div>

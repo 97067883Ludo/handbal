@@ -3,18 +3,20 @@
 namespace App\Http\Controllers;
 
 use App\Actions\GetPdfFileAction;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 
 class ArchiveController extends Controller
 {
-    public function show(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+    public function show(): Application|Factory|View
     {
         $archiveItems = (new getPdfFileAction(null, 'archive'));
 
-//        dd($archiveItems->media->addAttributeToFilter('created_at', 'desc'));
         return view('archive', [
-            'archiveItems' => $archiveItems->media->sortDesc(),
-            'headers' => ['item', 'Gemaakt op', 'opties']
+            'archiveItems' => $archiveItems->media,
+            'headers' => ['item', 'Gemaakt op', '']
         ]);
     }
 

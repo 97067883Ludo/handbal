@@ -5,10 +5,10 @@
         selector: 'textarea#myeditorinstance', // Replace this CSS selector to match the placeholder element for TinyMCE
         plugins: 'table lists',
         toolbar: 'undo redo | blocks| bold italic | bullist numlist | code | table',
+        height: '40rem'
     });
 </script>
 <script>
-
     tinymce.init({
         selector: 'textarea#compose-email', // Replace this CSS selector to match the placeholder element for TinyMCE
         plugins: 'lists',
