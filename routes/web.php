@@ -6,6 +6,7 @@ use App\Http\Controllers\CheckController;
 use App\Http\Controllers\createPdfController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\mailPdfController;
+use App\Http\Controllers\TableServiceController;
 use App\Http\Controllers\UploadController;
 use App\Notifications\NewMessage;
 use Illuminate\Support\Facades\Auth;
@@ -44,7 +45,6 @@ Route::middleware('auth')->group(function () {
     Route::get('home/delete-pdf', [ArchiveController::class, 'delete'])->name('deleteMediaItem');
 });
 
-
+Route::get('/tafeldienst', [TableServiceController::class, 'show']);
 Route::middleware('guest')->post('/login', [AuthController::class, 'authenticate']);
-
 Route::middleware('guest')->get('/login', [AuthController::class, 'getLoginScreen'])->name('/login');
