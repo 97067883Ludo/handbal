@@ -43,7 +43,7 @@ export default {
 
     methods: {
         getData(filter) {
-            axios.get(`/api/tafeldienst/?filter=${filter}`)
+            axios.get(`https://handbal.tielbekertjes.nl/api/tafeldienst/?filter=${filter}`)
                 .then((response) => {
                     this.searchResults = response.data
                 })
