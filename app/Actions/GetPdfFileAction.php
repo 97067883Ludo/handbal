@@ -8,7 +8,7 @@ class GetPdfFileAction
 {
     public $media;
 
-    public function __construct(public $fileId = null, public $collectionName)
+    public function __construct(public $fileId, public $collectionName)
     {
         $user = Auth::user();
 
