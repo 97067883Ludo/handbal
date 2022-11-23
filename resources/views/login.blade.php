@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
-    @vite('resources/js/app.js')
+    @vite('resources/js/alpine.js')
     <title>Login handbalSchema</title>
 </head>
 <body class="flex justify-center items-center h-screen bg-slate-200 flex-col">
