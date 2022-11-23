@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\SearchWord;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -18,6 +19,11 @@ class TableServiceController extends Controller
         if ($request->filter == '') {
             return [];
         }
+
+        SearchWord::create([
+            'ip' => $request->ip(),
+            'searchTerms' => $request->filter,
+        ]);
 
         $name = collect(explode(' ', $request->filter));
 

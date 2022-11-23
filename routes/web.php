@@ -6,6 +6,7 @@ use App\Http\Controllers\CheckController;
 use App\Http\Controllers\createPdfController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\mailPdfController;
+use App\Http\Controllers\SearchTermsController;
 use App\Http\Controllers\TableServiceController;
 use App\Http\Controllers\UploadController;
 use App\Notifications\NewMessage;
@@ -43,6 +44,7 @@ Route::middleware('auth')->group(function () {
     Route::post('/home/send-email', [mailPdfController::class, 'sendMail'])->name('sendEmail');
     Route::get('/home/archive', [ArchiveController::class, 'show'])->name('archive');
     Route::get('home/delete-pdf', [ArchiveController::class, 'delete'])->name('deleteMediaItem');
+    Route::get('/home/searchvolume', [SearchTermsController::class, 'show']);
 });
 
 Route::get('/tafeldienst', [TableServiceController::class, 'show']);
